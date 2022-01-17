@@ -150,3 +150,41 @@ function changeCards() {
   }
   console.log("finish");
 }
+
+//ENVOKE THESE
+//WELCOME TEXT
+if (window.location.href.indexOf("http://localhost/my/") != -1) {
+  // do stuff for reserve.php page here
+  function changeWelcomeTxt(company) {
+    const astWelcomeTxt = document.querySelector(
+      ".display-4.font-weight-semibold"
+    );
+    console.log("Switc start");
+    switch (company) {
+      case "astutis":
+        astWelcomeTxt.firstElementChild.classList.remove("primarygradient");
+        astWelcomeTxt.firstElementChild.classList.add(
+          "ast-welcome-txt--astutis"
+        );
+        break;
+      case "rospa":
+        astWelcomeTxt.firstElementChild.classList.remove("primarygradient");
+        astWelcomeTxt.firstElementChild.classList.add("ast-welcome-txt--rospa");
+        break;
+      case "meta":
+        astWelcomeTxt.firstElementChild.classList.remove("primarygradient");
+        astWelcomeTxt.firstElementChild.classList.add("ast-welcome-txt--meta");
+        break;
+      case "twitter":
+        astWelcomeTxt.firstElementChild.classList.remove("primarygradient");
+        astWelcomeTxt.firstElementChild.classList.add(
+          "ast-welcome-txt--twitter"
+        );
+        break;
+    }
+    console.log("Switc ends");
+  }
+  changeWelcomeTxt(skinLower);
+}
+
+changeCards();
