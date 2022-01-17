@@ -153,7 +153,7 @@ function changeCards() {
 
 /*ENVOKE THESE
 //WELCOME TEXT
-if (window.location.href.indexOf("http://localhost/my/") != -1) {
+if (window.location.href.indexOf("http://ec2-52-56-190-54.eu-west-2.compute.amazonaws.com/my/") != -1) {
   // do stuff for reserve.php page here
   function changeWelcomeTxt(company) {
     const astWelcomeTxt = document.querySelector(
