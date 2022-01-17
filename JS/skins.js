@@ -151,7 +151,7 @@ function changeCards() {
   console.log("finish");
 }
 
-//ENVOKE THESE
+/*ENVOKE THESE
 //WELCOME TEXT
 if (window.location.href.indexOf("http://localhost/my/") != -1) {
   // do stuff for reserve.php page here
@@ -188,3 +188,4 @@ if (window.location.href.indexOf("http://localhost/my/") != -1) {
 }
 
 changeCards();
+*/
