@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Style Sheet Start-->
+    <link
+      rel="stylesheet"
+      href="https://drive.google.com/uc?export=view&id=1h4e8XFotnMF4UAFKpsjdU1lJDhvMCE4L"
+    />
+    <!--Style Sheet End-->
+    <title>Performance Levels (PL) and Safety Integrity Levels (SIL)</title>
+  </head>
+  <body>
+    <!--Astutis Code Start-->
+    <!--Title 8 Start-->
+    <div class="ast-title ast-title--e8">
+      <h2>Performance Levels (PL) and Safety Integrity Levels (SIL)</h2>
+      <img
+        class="ast-title__img"
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/137240167/symi0916_control-system.svg"
+      />
+    </div>
+    <!--Title 8 End-->
+
+    <!--Astutis Paragraph and Image Start-->
+    <div class="ast-p-and-img ast-margin-medium--topbot">
+      <div class="ast-p-and-img__p">
+        <p>
+          PL and SIL (if applied to machinery control systems), are both
+          expressed in Probability of Failure per Hour (PFH). Both ratings also
+          have requirements concerning structure, the degree of self-detection
+          built into a device, and the confidence that design faults have been
+          avoided.
+        </p>
+        <p>
+          The main difference between PL and SIL lies in the parameters that
+          express those requirements. The PL not only has a PFH, but also a
+          reliability value for each channel inside the safety-related system.
+          This is called the Mean Time To dangerous Failure (MTTFd) of a
+          channel.
+        </p>
+      </div>
+      <div class="ast-p-and-img__p">
+        <!--Blue Box - Single Paragraph Start-->
+        <div class="ast-blue-box-container">
+          <div class="ast-blue-box">
+            <p>
+              The Safety Integrity Level (SIL) is used to specify the integrity
+              requirements of the safety functions to be allocated to the
+              Electrical / Electronic / Programmable Electronic (E / E / PE)
+              safety-related systems.
+            </p>
+          </div>
+        </div>
+        <!--Blue Box - Single Paragraph End-->
+      </div>
+    </div>
+    <!--Astutis Paragraph and Image End-->
+
+    <p>
+      Performance Levels are only referenced in one standard, ISO 13849, however
+      this is the pivotal standard as it is harmonised to the Machinery
+      Directive. Safety Integrity Levels are referenced in IEC 61508 and all the
+      other standards derived from it.
+    </p>
+    <p>
+      The ability of Safety-Related Parts of Control Systems (SRP/CS) to perform
+      a safety function under foreseeable conditions is allocated one of five
+      Performance Levels (PL). These performance levels are defined in terms of
+      probability of dangerous failure per hour.
+    </p>
+    <p>
+      To facilitate the assessment of achieved PL, EN ISO 13849-1 categorises
+      control system structures into one of five classes of design architecture
+      (B, 1, 2, 3, or 4) according to specific design criteria and specified
+      behaviours under fault conditions as shown in the table below.
+    </p>
+
+    <!--Table Desktop Start-->
+    <div class="ast-table ast-table--desktop">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__heading">
+            <th class="ast-table__ctn__wrp__row--v">Cat.</th>
+            <th class="ast-table__ctn__wrp__row--v">Summary of requirements</th>
+            <th class="ast-table__ctn__wrp__row--v">System behaviour</th>
+            <th class="ast-table__ctn__wrp__row--v">
+              Principle used to achieve safety
+            </th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v ast-bold">B</td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                SRP/CS and/or their protective equipment, as well as their
+                components, shall be designed, constructed, selected, assembled
+                and combined in accordance with relevant standards so that they
+                can withstand the expected influence.
+              </p>
+              Basic safety principles shall be used. The occurrence of a fault
+              can lead to the loss of the safety function.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              The occurrence of a fault can lead to the loss of the safety
+              function.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              Mainly characterised by selection of components.
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v ast-bold">1</td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>Requirements of B shall apply.</p>
+              Well-tried components and well-tried safety principles shall be
+              used.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              The occurrence of a fault can lead to the loss of the safety
+              function but the probability of occurrence is lower than for
+              category B.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              Mainly characterised by selection of components.
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v ast-bold">2</td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </p>
+              Safety function shall be checked at suitable intervals by the
+              machine control system.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                The occurrence of a fault can lead to the loss of the safety
+                function between the checks.
+              </p>
+              The loss of safety function is detected by the check.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              Mainly characterised by structure.
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v ast-bold">3</td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                3 Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </p>
+              Safety-related parts shall be designed, so that a single fault in
+              any of these parts does not lead to the loss of the safety
+              function, and ‘whenever reasonably practicable, the single fault
+              is detected.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                When a single fault occurs, the safety function is always
+                performed. Some, but not all, faults will be detected.
+              </p>
+              Accumulation of undetected faults can lead to the loss of the
+              safety .
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              Mainly characterised by structure.
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v ast-bold">4</td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </p>
+              Safety-related parts shall be designed, so that a single fault in
+              any of these parts does not lead to a loss of the safety function,
+              and the single fault is detected at or before the next demand upon
+              the safety function, but that if this detection is not possible,
+              an accumulation of undetected faults shall not lead to the loss of
+              the safety function.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              <p>
+                When a single fault occurs the safety function is always
+                performed.
+              </p>
+              <p>
+                Detection of accumulated faults reduces the probability of the
+                loss of the safety function (high diagnostic coverage - DC).
+              </p>
+              The faults will be detected in time to prevent the loss of the
+              safety function.
+            </td>
+            <td class="ast-table__ctn__wrp__row--v">
+              Mainly characterised by structure.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+
+    <!--Table Mobile Cards Start-->
+    <div class="ast-table ast-table--mobile">
+      <div class="ast-table__div-container">
+        <div
+          class="
+            ast-table__ctn__wrp__data__row-odd
+            ast-padding-medium ast-border-round ast-margin-bot-medium
+          "
+        >
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Cat.</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item ast-bold">B</li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Summary of requirements</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                SRP/CS and/or their protective equipment, as well as their
+                components, shall be designed, constructed, selected, assembled
+                and combined in accordance with relevant standards so that they
+                can withstand the expected influence.
+              </li>
+              <li class="ast-list__bullet__item">
+                Basic safety principles shall be used. The occurrence of a fault
+                can lead to the loss of the safety function.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">System behaviour</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                The occurrence of a fault can lead to the loss of the safety
+                function.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Principle used to achieve safety</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Mainly characterised by selection of components.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+        </div>
+        <div
+          class="
+            ast-table__ctn__wrp__data__row-even
+            ast-padding-medium ast-border-round ast-margin-bot-medium
+          "
+        >
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Cat.</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item ast-bold">1</li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Summary of requirements</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Requirements of B shall apply.
+              </li>
+              <li class="ast-list__bullet__item">
+                Well-tried components and well-tried safety principles shall be
+                used.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">System behaviour</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                The occurrence of a fault can lead to the loss of the safety
+                function but the probability of occurrence is lower than for
+                category B.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Principle used to achieve safety</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Mainly characterised by selection of components.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+        </div>
+        <div
+          class="
+            ast-table__ctn__wrp__data__row-odd
+            ast-padding-medium ast-border-round ast-margin-bot-medium
+          "
+        >
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Cat.</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item ast-bold">2</li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Summary of requirements</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </li>
+              <li class="ast-list__bullet__item">
+                Safety function shall be checked at suitable intervals by the
+                machine control system.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">System behaviour</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                The occurrence of a fault can lead to the loss of the safety
+                function between the checks.
+              </li>
+              <li class="ast-list__bullet__item">
+                The loss of safety function is detected by the check.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Principle used to achieve safety</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Mainly characterised by structure.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+        </div>
+        <div
+          class="
+            ast-table__ctn__wrp__data__row-even
+            ast-padding-medium ast-border-round ast-margin-bot-medium
+          "
+        >
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Cat.</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item ast-bold">3</li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Summary of requirements</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                3 Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </li>
+              <li class="ast-list__bullet__item">
+                Safety-related parts shall be designed, so that a single fault
+                in any of these parts does not lead to the loss of the safety
+                function, and ‘whenever reasonably practicable, the single fault
+                is detected.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">System behaviour</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                When a single fault occurs, the safety function is always
+                performed. Some, but not all, faults will be detected.
+              </li>
+              <li class="ast-list__bullet__item">
+                Accumulation of undetected faults can lead to the loss of the
+                safety .
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Principle used to achieve safety</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Mainly characterised by structure.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+        </div>
+        <div
+          class="
+            ast-table__ctn__wrp__data__row-odd
+            ast-padding-medium ast-border-round ast-margin-bot-medium
+          "
+        >
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Cat.</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item ast-bold">4</li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Summary of requirements</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Requirements of B and the use of well-tried safety principles
+                shall apply.
+              </li>
+              <li class="ast-list__bullet__item">
+                Safety-related parts shall be designed, so that a single fault
+                in any of these parts does not lead to a loss of the safety
+                function, and the single fault is detected at or before the next
+                demand upon the safety function, but that if this detection is
+                not possible, an accumulation of undetected faults shall not
+                lead to the loss of the safety function.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">System behaviour</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                When a single fault occurs the safety function is always
+                performed.
+              </li>
+              <li class="ast-list__bullet__item">
+                Detection of accumulated faults reduces the probability of the
+                loss of the safety function (high diagnostic coverage - DC).
+              </li>
+              <li class="ast-list__bullet__item">
+                The faults will be detected in time to prevent the loss of the
+                safety function.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+          <div class="ast-table__div">
+            <p class="ast-heading--h6">Principle used to achieve safety</p>
+            <!--List Bullet Start-->
+            <ul class="ast-list__bullet">
+              <li class="ast-list__bullet__item">
+                Mainly characterised by structure.
+              </li>
+            </ul>
+            <!--List Bullet End-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Table Mobile Cards End-->
+
+    <p>
+      To fulfil the requirements of category B The SRP/CS has to be designed,
+      constructed, selected, assembled and combined in accordance with the
+      relevant European standards (EN) and using basic safety principles for the
+      specific application to withstand the expected operating stresses, however
+      a single component (sub-unit) fault can lead to the loss of the safety
+      function.
+    </p>
+
+    <img
+      src="https://mylearning.astutis.com/draftfile.php/524/user/draft/117414078/cgdi0623_control_system_with_category_B_architecture-01.jpg"
+      alt="Flowchart of a control system with category B architecture."
+      class="ast-img"
+    />
+
+    <p>
+      Category 4 SRP/CS has a much greater level of reliability due to its dual
+      channel architecture (redundancy) and fault monitoring systems. Category 4
+      SRP/CS are designed so that:
+    </p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">
+          a single fault in any of these safety-related parts does not lead to a
+          loss of the safety function
+        </li>
+        <li class="ast-list__bullet__item">
+          the single fault is detected at or before the next demand upon the
+          safety functions, e.g. immediately, at switch on, or at end of a
+          machine operating cycle … but …
+        </li>
+        <li class="ast-list__bullet__item">
+          if this detection is not possible, then an accumulation of undetected
+          faults shall not lead to the loss of the safety function.
+        </li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <img
+      src="https://mylearning.astutis.com/draftfile.php/524/user/draft/117414078/cgdi0624_control_system_with_category_4_architecture-01.jpg"
+      alt="Flowchart of a control system with category 4 architecture."
+      class="ast-img"
+    />
+
+    <!--Astutis Code End-->
+  </body>
+</html>
