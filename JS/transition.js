@@ -10,10 +10,18 @@ const animItem = bodymovin.loadAnimation({
 });
 
 //On page load
+/*v1
 window.onload = function () {
   lottieContainer.classList.remove("ast-lottie__hide");
   animItem.goToAndPlay(0, true);
 };
+*/
+
+$(window).load(function () {
+  // Animate loader off screen
+  lottieContainer.classList.remove("ast-lottie__hide");
+  animItem.goToAndPlay(0, true);
+});
 
 //Display none after animation
 animItem.addEventListener("complete", () => {
