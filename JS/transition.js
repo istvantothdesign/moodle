@@ -35,7 +35,7 @@ setTimeout(function () {
   anim[0].setAttribute("preserveAspectRatio", "none");
   anim[0].style.width = "100vw";
   anim[0].style.height = "100vh";
-}, 10);
+},);
 
 // play.addEventListener("click", () => {
 //   svgContainer.classList.remove("ast-lottie__hide");
