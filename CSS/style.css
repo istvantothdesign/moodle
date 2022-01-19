@@ -1081,6 +1081,12 @@ body:not(.ie) .ast-welcome-txt--twitter {
 /*# sourceMappingURL=style.css.map */
 
 /*Vanilla transition*/
+:root {
+  --primary: #af1e2d;
+  --light: #f3f3f3;
+  --grey: #8a8a8b;
+  --dark: #212121;
+}
 .transition-1 {
   position: fixed;
   top: 0;
