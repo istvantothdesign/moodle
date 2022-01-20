@@ -27,13 +27,13 @@ function loaderColor() {
   const transition = document.querySelector(".transition-3");
   switch (skinLower) {
     case "meta":
-      transition.style.backgroundColor = "green";
+      transition.style.setProperty("--astloader", "blue");
       break;
     case "rospa":
-      transition.style.backgroundColor = "purple";
+      transition.style.setProperty("--astloader", "purple");
       break;
     default:
-      transition.style.backgroundColor = "yellow";
+      transition.style.backgroundColor = "red";
   }
 }
 
