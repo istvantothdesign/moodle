@@ -27,13 +27,13 @@ function loaderColor() {
   const transition = document.querySelector(".transition-3");
   switch (skinLower) {
     case "meta":
-      transition.style.setProperty("--astloader", "blue");
+      transition.style.setProperty("--astloader", "#3385ff");
       break;
     case "rospa":
-      transition.style.setProperty("--astloader", "purple");
+      transition.style.setProperty("--astloader", "#ab0161");
       break;
     case "twitter":
-      transition.style.setProperty("--astloader", "purple");
+      transition.style.setProperty("--astloader", "#3385ff");
       break;
     default:
       transition.style.setProperty("--astloader", "#3a30a8");
