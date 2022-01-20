@@ -32,8 +32,11 @@ function loaderColor() {
     case "rospa":
       transition.style.setProperty("--astloader", "purple");
       break;
+    case "twitter":
+      transition.style.setProperty("--astloader", "purple");
+      break;
     default:
-      transition.style.backgroundColor = "red";
+      transition.style.backgroundColor = "rgb(58, 48, 168)";
   }
 }
 
