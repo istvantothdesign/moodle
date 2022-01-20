@@ -21,6 +21,22 @@ const circles1 = document.querySelectorAll(
 const skinLower = skin.toString().toLowerCase();
 
 //FUNCTIONS
+//Loader bg color
+//Change color
+function loaderColor() {
+  const transition = document.querySelector(".transition-3");
+  switch (skinLower) {
+    case "meta":
+      transition.style.backgroundColor = "green";
+      break;
+    case "rospa":
+      transition.style.backgroundColor = "purple";
+      break;
+    default:
+      transition.style.backgroundColor = "yellow";
+  }
+}
+
 //Course card ROSPA
 function courseCardRospa() {
   for (let i = 0; i < circles3.length; i++) {
