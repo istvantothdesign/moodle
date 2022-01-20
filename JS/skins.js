@@ -36,7 +36,7 @@ function loaderColor() {
       transition.style.setProperty("--astloader", "#3385ff");
       break;
     default:
-      transition.style.setProperty("--astloader", "#3a30a8");
+      transition.style.setProperty("--astloader", "#9243FF");
   }
 }
 
