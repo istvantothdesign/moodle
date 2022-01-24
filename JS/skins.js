@@ -166,6 +166,15 @@ function changeCards() {
         "https://istvantothdesign.github.io/astutis/Astutis-logo.png";
 
       break;
+    default:
+      courseCardAstutis();
+      for (i = 0; i < sectionImgColor.length; ++i) {
+        sectionImgColor[i].classList.add("change-astutis");
+      }
+      navLogo.children[0].src =
+        "https://istvantothdesign.github.io/astutis/Astutis-logo.png";
+
+      break;
   }
   console.log("finish");
 }
