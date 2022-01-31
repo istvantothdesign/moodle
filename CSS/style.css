@@ -395,6 +395,21 @@ body:not(.ie) .ast-welcome-txt--twitter {
   text-align: center;
 }
 
+.ast-vtext-ctn {
+  position: relative;
+}
+
+.ast-vtext-wrp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.ast-vtext-rotate {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+          transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
 .ast-img {
   width: 100%;
   margin: 40px 0;

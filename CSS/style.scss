@@ -180,6 +180,19 @@ $breakpoints: (
   text-align: center;
 }
 
+//Vertical text
+.ast-vtext-ctn {
+  position: relative;
+}
+.ast-vtext-wrp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.ast-vtext-rotate {
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
 //Image
 .ast-img {
   width: 100%;
