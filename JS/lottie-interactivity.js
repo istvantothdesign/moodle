@@ -45,4 +45,4 @@ const astLottie = new Lottie();
 astLottie.scrollSync("firstLottie");
 astLottie.visible("secondLottie", 0.3);
 astLottie.toggle("thirdLottie");
-astLottie.visible("fourthLottie", 0.8);
+astLottie.visible("fourthLottie", 0.2);
