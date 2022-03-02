@@ -1,6 +1,8 @@
 // Class
 class Lottie {
-  constructor() {}
+  constructor() {
+    this.ids = document.querySelectorAll("[id^='ast-lottie-play--']");
+  }
   scrollSync(id) {
     LottieInteractivity.create({
       player: `#${id}`,
@@ -37,12 +39,23 @@ class Lottie {
       ],
     });
   }
+  automate() {
+    this.ids.forEach((id) => {
+      console.log(id);
+      if (id.classList.contains("ast-lottie--scroll")) {
+        this.scrollSync(id.id);
+      } else if (id.classList.contains("ast-lottie--visible")) {
+        this.visible(id.id, id.dataset.visible);
+      } else if (id.classList.contains("ast-lottie--toggle")) {
+        this.toggle(id.id);
+      } else {
+        this.visible(id.id);
+      }
+    });
+  }
 }
 
 const astLottie = new Lottie();
 
-// Lotties
-astLottie.scrollSync("firstLottie");
-astLottie.visible("secondLottie", 0.3);
-astLottie.toggle("thirdLottie");
-astLottie.visible("fourthLottie", 0.1);
+// Automate lottie triggers
+astLottie.automate();
