@@ -707,6 +707,14 @@ $breakpoints: (
   margin: 10px 10px 10px 10px;
 }
 
+.ast-case-law {
+  width: 130px;
+  height: 130px;
+  img {
+    width: 120px;
+  }
+}
+
 //Discovery Learning
 .ast-discovery {
   background: $discovery;

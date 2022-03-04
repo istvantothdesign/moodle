@@ -1120,6 +1120,15 @@ body:not(.ie) .ast-welcome-txt--twitter {
   margin: 10px 10px 10px 10px;
 }
 
+.ast-case-law {
+  width: 130px;
+  height: 130px;
+}
+
+.ast-case-law img {
+  width: 120px;
+}
+
 .ast-discovery {
   background: #ff9a15;
 }
@@ -1267,6 +1276,11 @@ body:not(.ie) .ast-welcome-txt--twitter {
 
 .ast-explore img {
   content: url("https://astutis.github.io/moodle/Nebosh%20Diploma/Images/explore-more-icon.png");
+}
+
+.ast-lottie-player {
+  width: 100%;
+  height: 100%;
 }
 
 /* Leagacy
