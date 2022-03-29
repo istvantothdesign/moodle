@@ -31,6 +31,7 @@ $e9: #9fd81b;
 $e10: #ff522a;
 $e11: #3bd488;
 $e12: #e92438;
+$e13: #641AC2;
 
 $case-law: #7cc8bd;
 $discovery: #ff9a15;
@@ -156,8 +157,10 @@ $breakpoints: (
 */
 
 //IMPORTS
+/*
 @import "_page-loader";
 @import "_skins";
+*/
 
 //Text Styles
 .ast-bold {
@@ -337,6 +340,9 @@ $breakpoints: (
 }
 .ast-title--e12 {
   background: $e12;
+}
+.ast-title--e13 {
+  background: $e13;
 }
 .ast-title__img {
   width: 70px;
