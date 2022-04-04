@@ -41,5 +41,10 @@
 
 .logo img {
   content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+  width: 138px;
+}
+
+.navbar .site-name {
+  display: none !important;
 }
 /*# sourceMappingURL=style.css.map */
