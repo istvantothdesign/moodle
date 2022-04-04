@@ -39,12 +39,16 @@
   border: none;
 }
 
-.logo img {
-  content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
-  width: 138px;
-}
-
 .navbar .site-name {
   display: none !important;
+}
+
+.navbar .navbar-brand .d-none {
+  display: inline !important;
+}
+
+.navbar .navbar-brand .logo img {
+  content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+  width: 138px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -33,15 +33,20 @@
 }
 
 // Nav bar
-.logo {
-  img {
-    content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
-    width: 138px;
-  }
-}
 
 .navbar {
   .site-name {
     display: none !important;
+  }
+  .navbar-brand {
+    .d-none {
+      display: inline !important;
+    }
+    .logo {
+      img {
+        content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+        width: 138px;
+      }
+    }
   }
 }
