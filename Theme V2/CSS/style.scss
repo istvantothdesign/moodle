@@ -35,6 +35,7 @@
 // Nav bar
 
 .navbar {
+  padding: 2rem 1rem;
   .navbar-brand {
     .d-none {
       display: inline !important;
@@ -81,4 +82,8 @@ a {
   header {
     height: 0;
   }
+}
+
+div#learningcontent {
+  background: transparent !important;
 }

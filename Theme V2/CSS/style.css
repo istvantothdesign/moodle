@@ -39,6 +39,10 @@
   border: none;
 }
 
+.navbar {
+  padding: 2rem 1rem;
+}
+
 .navbar .navbar-brand .d-none {
   display: inline !important;
 }
@@ -100,5 +104,9 @@ a {
 
 #page-my-index header {
   height: 0;
+}
+
+div#learningcontent {
+  background: transparent !important;
 }
 /*# sourceMappingURL=style.css.map */
