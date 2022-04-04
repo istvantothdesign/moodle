@@ -38,4 +38,8 @@
 .card-body {
   border: none;
 }
+
+.logo img {
+  content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+}
 /*# sourceMappingURL=style.css.map */
