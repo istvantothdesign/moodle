@@ -35,12 +35,12 @@
 // Nav bar
 
 .navbar {
-  .site-name {
-    display: none !important;
-  }
   .navbar-brand {
     .d-none {
       display: inline !important;
+    }
+    .site-name.d-none {
+      display: none !important;
     }
     .logo {
       img {

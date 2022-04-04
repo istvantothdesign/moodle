@@ -39,12 +39,12 @@
   border: none;
 }
 
-.navbar .site-name {
-  display: none !important;
-}
-
 .navbar .navbar-brand .d-none {
   display: inline !important;
+}
+
+.navbar .navbar-brand .site-name.d-none {
+  display: none !important;
 }
 
 .navbar .navbar-brand .logo img {
