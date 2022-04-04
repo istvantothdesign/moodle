@@ -89,6 +89,13 @@ h2 {
   background: #ffffff;
 }
 
+@media (min-width: 992px) {
+  .path-course #region-main-box {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
 /*Usage
 .selector {
   color: red;
@@ -308,12 +315,7 @@ h2 {
 .ast-title h2 {
   margin: 20px 0;
 }
-@media (min-width: 992px) {
-  .path-course #region-main-box {
-    max-width: 100%;
-    margin: auto;
-  }
-}
+
 @media (max-width: 767px) {
   .ast-title {
     display: -webkit-box;
@@ -1017,6 +1019,7 @@ h2 {
 .ast-explore img {
   content: url("https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/explore-more-icon.png");
 }
+
 /*Exit activity button (visible in SCORM activities)*/
 #page-header .ml-auto.d-flex {
   -webkit-box-align: center;

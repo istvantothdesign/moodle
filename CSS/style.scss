@@ -31,7 +31,7 @@ $e9: #9fd81b;
 $e10: #ff522a;
 $e11: #3bd488;
 $e12: #e92438;
-$e13: #641AC2;
+$e13: #641ac2;
 
 $case-law: #7cc8bd;
 $discovery: #ff9a15;
@@ -143,6 +143,14 @@ $breakpoints: (
   @else {
     @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
         + "Available breakpoints are: #{map-keys($breakpoints)}.";
+  }
+}
+
+// Custom
+@media (min-width: 992px) {
+  .path-course #region-main-box {
+    max-width: 100%;
+    margin: auto;
   }
 }
 
@@ -837,18 +845,21 @@ $breakpoints: (
   border-radius: 15px;
 }
 
-.ast-discovery {
-  img {
-    content: url("https://astutis.github.io/moodle/Nebosh%20Diploma/Images/DiscoveryLearning-icon%20copy-web.png");
-  }
+.ast-discovery img {
+  content: url("https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/DiscoveryLearning-icon%20copy-web.png");
 }
 
-.ast-explore {
-  img {
-    content: url("https://astutis.github.io/moodle/Nebosh%20Diploma/Images/explore-more-icon.png");
-  }
+.ast-explore img {
+  content: url("https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/explore-more-icon.png");
+}
+/*Exit activity button (visible in SCORM activities)*/
+#page-header .ml-auto.d-flex {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
+/*Lottie player*/
 .ast-lottie-player {
   width: 100%;
   height: 100%;
