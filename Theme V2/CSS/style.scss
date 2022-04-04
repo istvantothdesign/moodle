@@ -49,6 +49,23 @@
       }
     }
   }
+  #action-menu-toggle-1 {
+    display: flex !important;
+    /*! align-content: ; */
+    align-items: center;
+  }
+  .userbutton {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatars {
+    order: 0;
+  }
+  .usertext {
+    order: 1;
+  }
 }
 
 // Site Wide Text
