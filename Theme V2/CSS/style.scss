@@ -68,11 +68,17 @@
   }
 }
 
-// Site Wide Text
+// Site-wide Text
 a {
   color: black;
 }
 
 .userpicture {
   border-radius: 100%;
+}
+
+#page-my-index {
+  header {
+    height: 0;
+  }
 }

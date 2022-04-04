@@ -97,4 +97,8 @@ a {
 .userpicture {
   border-radius: 100%;
 }
+
+#page-my-index header {
+  height: 0;
+}
 /*# sourceMappingURL=style.css.map */
