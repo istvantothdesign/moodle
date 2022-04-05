@@ -31,11 +31,11 @@ div#learningcontent {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ast-embed-wrp.ast-featured {
@@ -91,8 +91,8 @@ div#learningcontent {
   display: flex !important;
   /*! align-content: ; */
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar .userbutton {
@@ -101,26 +101,26 @@ div#learningcontent {
   display: flex !important;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar .avatars {
   -webkit-box-ordinal-group: 1;
-  -ms-flex-order: 0;
-  order: 0;
+      -ms-flex-order: 0;
+          order: 0;
 }
 
 .navbar .usertext {
   -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .ast-welcome-message {
@@ -163,12 +163,12 @@ div#learningcontent {
   border-radius: 20px;
   overflow: hidden;
   -webkit-box-shadow: -3px 7px 5px 1px #0000002e;
-  box-shadow: -3px 7px 5px 1px #0000002e;
+          box-shadow: -3px 7px 5px 1px #0000002e;
 }
 
 .block_myoverview .dashboard-card:hover {
   -webkit-box-shadow: -3px 7px 5px 1px #00000091;
-  box-shadow: -3px 7px 5px 1px #00000091;
+          box-shadow: -3px 7px 5px 1px #00000091;
 }
 
 .block_myoverview .coursename {
@@ -187,6 +187,7 @@ div#learningcontent {
 
 #page-course-view-topics #learningcontent {
   background: #00000054 !important;
+  height: 100%;
 }
 
 #page-course-view-topics #page-header {
@@ -194,8 +195,8 @@ div#learningcontent {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #page-course-view-topics #page-header div {
@@ -208,8 +209,8 @@ div#learningcontent {
   display: flex;
   width: 100%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #page-course-view-topics #page-content #region-main-box {
@@ -229,8 +230,33 @@ div#learningcontent {
   border-radius: 5px;
 }
 
+#page-course-view-topics #page-content .course-content .section-summary .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .progress {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(1) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(2) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities br {
+  display: none;
+}
+
 .headerbkg .withimage {
   -webkit-filter: blur(3px);
-  filter: blur(3px);
+          filter: blur(3px);
 }
 /*# sourceMappingURL=style.css.map */

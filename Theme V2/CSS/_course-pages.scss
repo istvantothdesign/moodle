@@ -2,6 +2,7 @@
 #page-course-view-topics {
   #learningcontent {
     background: #00000054 !important;
+    height: 100%;
   }
   #page-header {
     display: flex;
@@ -28,6 +29,24 @@
         background: white;
         padding: 20px;
         border-radius: 5px;
+        .content {
+          display: flex;
+          justify-content: space-between;
+          .progress {
+            display: none;
+          }
+          .section-summary-activities {
+            .activity-count:nth-child(1) {
+              display: none;
+            }
+            .activity-count:nth-child(2) {
+              display: none;
+            }
+            br {
+              display: none;
+            }
+          }
+        }
       }
     }
   }
