@@ -27,3 +27,11 @@
     display: none;
   }
 }
+
+.block_myoverview {
+  .dashboard-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -3px 7px 5px 1px #0003;
+  }
+}
