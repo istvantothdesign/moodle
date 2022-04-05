@@ -145,7 +145,7 @@ div#learningcontent {
   height: 15rem;
 }
 
-#course-info-container-2-2 .categoryname {
+.dashboard-card-deck .dashboard-card .categoryname {
   display: none;
 }
 

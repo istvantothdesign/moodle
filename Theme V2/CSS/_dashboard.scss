@@ -25,15 +25,19 @@
   display: none !important;
 }
 
-.dashboard-card-deck .dashboard-card .dashboard-card-img {
-  height: 15rem;
-}
-
-#course-info-container-2-2 {
-  .categoryname {
-    display: none;
+.dashboard-card-deck {
+  .dashboard-card {
+    .dashboard-card-img {
+      height: 15rem;
+    }
+    .categoryname {
+      display: none;
+    }
   }
 }
+
+// #course-info-container-2-2 {
+// }
 
 .block_myoverview {
   .dashboard-card {
