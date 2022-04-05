@@ -114,4 +114,13 @@ div#learningcontent {
       -ms-flex-order: 1;
           order: 1;
 }
+
+.ast-welcome-message {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.ast-welcome-message__name {
+  color: #9243ff;
+}
 /*# sourceMappingURL=style.css.map */
