@@ -16,6 +16,19 @@
     justify-content: center;
     #region-main-box {
       max-width: 1000px !important;
+      #region-main {
+        background: transparent !important;
+        padding: 0 !important;
+        border: none !important;
+      }
+    }
+    .course-content {
+      .section-summary {
+        border: none;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+      }
     }
   }
 }
