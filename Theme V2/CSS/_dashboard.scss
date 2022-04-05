@@ -21,6 +21,10 @@
   }
 }
 
+#page-my-index .block_myoverview .card-body h5 {
+  display: none !important;
+}
+
 .dashboard-card-deck .dashboard-card .dashboard-card-img {
   height: 15rem;
 }
@@ -43,7 +47,6 @@
   }
 }
 
-// New
 .block_myoverview .coursename {
   font-weight: 600;
   font-size: 18px;

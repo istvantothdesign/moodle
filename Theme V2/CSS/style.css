@@ -137,6 +137,10 @@ div#learningcontent {
   display: none !important;
 }
 
+#page-my-index .block_myoverview .card-body h5 {
+  display: none !important;
+}
+
 .dashboard-card-deck .dashboard-card .dashboard-card-img {
   height: 15rem;
 }
