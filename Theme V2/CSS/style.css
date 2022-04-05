@@ -142,10 +142,17 @@ div#learningcontent {
 }
 
 .block_myoverview .dashboard-card {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   border-radius: 20px;
   overflow: hidden;
-  -webkit-box-shadow: -3px 7px 5px 1px #0003;
-          box-shadow: -3px 7px 5px 1px #0003;
+  -webkit-box-shadow: -3px 7px 5px 1px #0000002e;
+          box-shadow: -3px 7px 5px 1px #0000002e;
+}
+
+.block_myoverview .dashboard-card:hover {
+  -webkit-box-shadow: -3px 7px 5px 1px #00000091;
+          box-shadow: -3px 7px 5px 1px #00000091;
 }
 
 .block_myoverview .coursename {
