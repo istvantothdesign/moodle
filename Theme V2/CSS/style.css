@@ -184,4 +184,40 @@ div#learningcontent {
 .block_myoverview .small {
   font-size: 14px;
 }
+
+#page-course-view-topics #learningcontent {
+  background: #00000054 !important;
+}
+
+#page-course-view-topics #page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-course-view-topics #page-header div {
+  max-width: 1000px !important;
+}
+
+#page-course-view-topics #page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-course-view-topics #page-content #region-main-box {
+  max-width: 1000px !important;
+}
+
+.headerbkg .withimage {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
 /*# sourceMappingURL=style.css.map */

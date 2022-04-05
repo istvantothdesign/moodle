@@ -1,0 +1,29 @@
+// Course pages
+#page-course-view-topics {
+  #learningcontent {
+    background: #00000054 !important;
+  }
+  #page-header {
+    display: flex;
+    justify-content: center;
+    div {
+      max-width: 1000px !important;
+    }
+  }
+  #page-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1000px !important;
+    }
+  }
+}
+
+.headerbkg {
+  .withimage {
+    filter: blur(3px);
+  }
+}
+
+// Topics

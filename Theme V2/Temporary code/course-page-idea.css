@@ -1,0 +1,170 @@
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#section-1 > div:nth-child(3) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+.fordsonsinglepage {
+  display: none;
+}
+
+/* all | https://mylearningdev2.astutis.com/theme/styles.php/fordson/1649165497_1/all */
+
+#page-course-view-topics .course-content .section-summary {
+  margin-bottom: 20px;
+  background: white !important;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+#region-main {
+  /* background-color: #fff !important; */
+}
+
+#region-main {
+  /* border: 1px solid #dee2e6; */
+  /* padding: 1rem; */
+  /* background-color: #fff; */
+}
+
+#region-main {
+  /* background-color: #dae6e5; */
+}
+
+@media (min-width: 576px) {
+  #region-main {
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* padding: 1.25rem; */
+  }
+}
+
+.course-content ul.topics li.section,
+.course-content ul.weeks li.section {
+  /* margin-top: 1rem; */
+  margin-top: 0rem;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.section-go-link {
+  /* background-color: #f8f9fa; */
+  background-color: #9243ff;
+}
+
+.btn-secondary {
+  /* color: #212529; */
+  color: #fff;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#section-1 {
+  background: green;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+span.activity-count:nth-child(1) {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#yui_3_17_2_1_1649165788729_26 {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#yui_3_17_2_1_1649165788729_20 {
+  order: 1;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#yui_3_17_2_1_1649165788729_21 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#yui_3_17_2_1_1649165788729_20 > br:nth-child(3) {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+span.activity-count:nth-child(4) {
+  order: 1;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+.section-go-link {
+  order: 2;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#yui_3_17_2_1_1649165788729_23 {
+  margin-top: 40px !important;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+.headerbkg {
+  background: green !important;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+.withimage {
+  filter: blur (2px) !important;
+  filter: blur(3px);
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#region-main-box {
+  max-width: 1000px;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#page-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#learningcontent {
+  background: #00000054 !important;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+#page-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=4 */
+
+div.pt-3 {
+  max-width: 1000px;
+}
