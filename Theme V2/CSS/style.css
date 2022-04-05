@@ -38,6 +38,10 @@ div#learningcontent {
           align-items: center;
 }
 
+.ast-embed-wrp .ast-featured {
+  padding: 40px 0;
+}
+
 .ast-embed {
   overflow: hidden;
   margin-top: 40px;
