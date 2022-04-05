@@ -19,6 +19,13 @@ div#learningcontent {
   background: transparent !important;
 }
 
+.section-go-link.btn.btn-secondary {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background: #9243ff;
+}
+
 .card,
 .card-body {
   border: none;
@@ -239,6 +246,27 @@ div#learningcontent {
           justify-content: space-between;
 }
 
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext a {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext div {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
 #page-course-view-topics #page-content .course-content .section-summary .content .progress {
   display: none;
 }
@@ -249,6 +277,10 @@ div#learningcontent {
 
 #page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(2) {
   display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(4) {
+  margin-right: 20px;
 }
 
 #page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities br {

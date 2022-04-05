@@ -32,6 +32,16 @@
         .content {
           display: flex;
           justify-content: space-between;
+          .summarytext {
+            display: flex;
+            align-items: center;
+            a {
+              order: 2;
+            }
+            div {
+              order: 1;
+            }
+          }
           .progress {
             display: none;
           }
@@ -41,6 +51,9 @@
             }
             .activity-count:nth-child(2) {
               display: none;
+            }
+            .activity-count:nth-child(4) {
+              margin-right: 20px;
             }
             br {
               display: none;
