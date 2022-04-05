@@ -38,7 +38,7 @@ div#learningcontent {
           align-items: center;
 }
 
-.ast-embed-wrp .ast-featured {
+.ast-embed-wrp.ast-featured {
   padding: 40px 0;
 }
 
