@@ -116,13 +116,17 @@ div#learningcontent {
 }
 
 .ast-welcome-message {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 700;
   margin: 10px 0;
 }
 
 .ast-welcome-message__name {
   color: #9243ff;
+}
+
+.ast-welcome-message__p {
+  font-size: 1.25rem;
 }
 
 #instance-10-header {
