@@ -124,4 +124,20 @@ div#learningcontent {
 .ast-welcome-message__name {
   color: #9243ff;
 }
+
+#instance-10-header {
+  display: none !important;
+}
+
+#page-my-index [data-region="filter"] {
+  display: none !important;
+}
+
+.dashboard-card-deck .dashboard-card .dashboard-card-img {
+  height: 15rem;
+}
+
+#course-info-container-2-2 .categoryname {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
