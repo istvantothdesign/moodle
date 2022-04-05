@@ -64,6 +64,10 @@ div#learningcontent {
   width: 100%;
 }
 
+#page-footer a {
+  color: black !important;
+}
+
 .navbar {
   padding: 2rem 1rem;
 }
