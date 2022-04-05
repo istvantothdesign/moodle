@@ -1,3 +1,24 @@
+a {
+  color: black;
+}
+
+.userpicture {
+  border-radius: 100%;
+}
+
+#page-my-index header {
+  height: 0;
+}
+
+div#learningcontent {
+  background: transparent !important;
+}
+
+.card,
+.card-body {
+  border: none;
+}
+
 .ast-embed-wrp {
   width: 100%;
   height: 100%;
@@ -32,11 +53,6 @@
   position: absolute;
   top: 0;
   width: 100%;
-}
-
-.card,
-.card-body {
-  border: none;
 }
 
 .navbar {
@@ -92,21 +108,5 @@
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-}
-
-a {
-  color: black;
-}
-
-.userpicture {
-  border-radius: 100%;
-}
-
-#page-my-index header {
-  height: 0;
-}
-
-div#learningcontent {
-  background: transparent !important;
 }
 /*# sourceMappingURL=style.css.map */

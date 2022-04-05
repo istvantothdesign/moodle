@@ -1,0 +1,35 @@
+// Nav bar
+.navbar {
+  padding: 2rem 1rem;
+  .navbar-brand {
+    .d-none {
+      display: inline !important;
+    }
+    .site-name.d-none {
+      display: none !important;
+    }
+    .logo {
+      img {
+        content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+        width: 138px;
+      }
+    }
+  }
+  #action-menu-toggle-1 {
+    display: flex !important;
+    /*! align-content: ; */
+    align-items: center;
+  }
+  .userbutton {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatars {
+    order: 0;
+  }
+  .usertext {
+    order: 1;
+  }
+}
