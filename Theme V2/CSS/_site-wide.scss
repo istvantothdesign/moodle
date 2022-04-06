@@ -22,6 +22,15 @@ div#learningcontent {
   background: transparent !important;
 }
 
+// Login page
+#page-login-index {
+  background: url("https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649257951/backgroiund.png");
+  .card-header.text-center {
+    background: transparent;
+    border: none;
+  }
+}
+
 // Buttons
 .section-go-link.btn.btn-secondary {
   padding: 10px 20px;
