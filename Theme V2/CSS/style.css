@@ -325,7 +325,7 @@ div#learningcontent {
 }
 
 #page-mod-book-view #page-header div {
-  max-width: 1000px !important;
+  max-width: 1440px !important;
 }
 
 #page-mod-book-view #page-content {
@@ -339,6 +339,6 @@ div#learningcontent {
 }
 
 #page-mod-book-view #page-content #region-main-box {
-  max-width: 1000px !important;
+  max-width: 1440px !important;
 }
 /*# sourceMappingURL=style.css.map */
