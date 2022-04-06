@@ -94,3 +94,22 @@
 .activity-information {
   display: none;
 }
+
+// Books
+#page-mod-book-view {
+  #page-header {
+    display: flex;
+    justify-content: center;
+    div {
+      max-width: 1000px !important;
+    }
+  }
+  #page-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1000px !important;
+    }
+  }
+}

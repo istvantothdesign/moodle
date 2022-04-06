@@ -314,4 +314,31 @@ div#learningcontent {
 .activity-information {
   display: none;
 }
+
+#page-mod-book-view #page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-mod-book-view #page-header div {
+  max-width: 1000px !important;
+}
+
+#page-mod-book-view #page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-mod-book-view #page-content #region-main-box {
+  max-width: 1000px !important;
+}
 /*# sourceMappingURL=style.css.map */
