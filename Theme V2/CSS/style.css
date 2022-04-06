@@ -278,6 +278,10 @@ div#learningcontent {
   display: none;
 }
 
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(3) {
+  display: none;
+}
+
 #page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(4) {
   margin-right: 20px;
 }
