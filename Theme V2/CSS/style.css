@@ -298,4 +298,11 @@ div#learningcontent {
   -webkit-filter: blur(3px);
           filter: blur(3px);
 }
+
+.editing #region-main-box {
+  background: white !important;
+  padding: 20px !important;
+  border: none !important;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */
