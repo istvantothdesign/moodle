@@ -368,4 +368,13 @@ div.section-navigation:nth-child(1) > span:nth-child(1) {
 div.section-navigation:nth-child(3) > span:nth-child(1) {
   display: none;
 }
+
+#page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
