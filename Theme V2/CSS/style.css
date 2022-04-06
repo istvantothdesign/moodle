@@ -310,4 +310,8 @@ div#learningcontent {
   border: none !important;
   border-radius: 5px;
 }
+
+.activity-information {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
