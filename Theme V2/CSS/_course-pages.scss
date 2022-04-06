@@ -124,3 +124,16 @@
     }
   }
 }
+
+// Course navigation (REFACTORING NEEDED)
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+
+div.section-navigation:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+
+div.section-navigation:nth-child(3) > span:nth-child(2) {
+  display: none;
+}
