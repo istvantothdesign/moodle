@@ -360,4 +360,12 @@ div.section-navigation:nth-child(1) > span:nth-child(2) {
 div.section-navigation:nth-child(3) > span:nth-child(2) {
   display: none;
 }
+
+div.section-navigation:nth-child(1) > span:nth-child(1) {
+  display: none;
+}
+
+div.section-navigation:nth-child(3) > span:nth-child(1) {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
