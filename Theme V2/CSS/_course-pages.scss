@@ -92,10 +92,8 @@
 
 // Section name
 .single-section {
-  h3 {
-    .sectionname {
-      text-align: left;
-    }
+  h3.sectionname {
+    text-align: left;
   }
 }
 

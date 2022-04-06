@@ -311,7 +311,7 @@ div#learningcontent {
   border-radius: 5px;
 }
 
-.single-section h3 .sectionname {
+.single-section h3.sectionname {
   text-align: left;
 }
 
