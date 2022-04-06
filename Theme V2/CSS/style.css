@@ -300,8 +300,8 @@ div#learningcontent {
 }
 
 .headerbkg .withimage {
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
+  -webkit-filter: blur(19px);
+          filter: blur(19px);
 }
 
 .editing #region-main-box {
