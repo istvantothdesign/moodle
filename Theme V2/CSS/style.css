@@ -377,4 +377,8 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+#page-footer .brandbox .footercontact {
+  padding-left: 0;
+}
 /*# sourceMappingURL=style.css.map */

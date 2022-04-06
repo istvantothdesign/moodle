@@ -1,4 +1,9 @@
 #page-footer {
   display: flex;
   justify-content: center;
+  .brandbox {
+    .footercontact {
+      padding-left: 0;
+    }
+  }
 }
