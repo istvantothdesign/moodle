@@ -230,6 +230,70 @@ div#learningcontent {
   border: none !important;
 }
 
+#page-course-view-topics #page-content .course-content .section-summary {
+  border: none;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext a {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext div {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .progress {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(1) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(2) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(4) {
+  margin-right: 20px;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities br {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .single-section {
+  background: white !important;
+  padding: 20px !important;
+  border: none !important;
+  border-radius: 5px;
+}
+
 .headerbkg .withimage {
   -webkit-filter: blur(3px);
           filter: blur(3px);
