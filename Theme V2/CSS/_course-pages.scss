@@ -1,7 +1,7 @@
 // Course pages
 #page-course-view-topics {
   #learningcontent {
-    background: #00000054 !important;
+    background: transparent !important;
     height: 100%;
   }
   #page-header {
@@ -81,6 +81,7 @@
 .headerbkg {
   .withimage {
     filter: blur(19px);
+    background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649165497/backgroiund.png) !important;
   }
 }
 
