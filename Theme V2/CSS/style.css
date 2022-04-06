@@ -311,6 +311,10 @@ div#learningcontent {
   border-radius: 5px;
 }
 
+.single-section h3 .sectionname {
+  text-align: left;
+}
+
 .activity-information {
   display: none;
 }

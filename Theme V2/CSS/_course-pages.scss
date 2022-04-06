@@ -90,6 +90,15 @@
   }
 }
 
+// Section name
+.single-section {
+  h3 {
+    .sectionname {
+      text-align: left;
+    }
+  }
+}
+
 // Acctivity completion
 .activity-information {
   display: none;
