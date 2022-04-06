@@ -241,9 +241,8 @@ div#learningcontent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
@@ -285,6 +284,12 @@ div#learningcontent {
 
 #page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities br {
   display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-title.sectionname {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 #page-course-view-topics #page-content .course-content .single-section {
