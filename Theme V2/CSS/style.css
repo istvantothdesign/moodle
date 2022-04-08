@@ -28,6 +28,23 @@ div#learningcontent {
   border: none;
 }
 
+#page-login-index footer {
+  display: none;
+}
+
+#page-login-index #region-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .section-go-link.btn.btn-secondary {
   padding: 10px 20px;
   color: white;

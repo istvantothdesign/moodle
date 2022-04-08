@@ -29,6 +29,14 @@ div#learningcontent {
     background: transparent;
     border: none;
   }
+  footer {
+    display: none;
+  }
+  #region-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 // Buttons
