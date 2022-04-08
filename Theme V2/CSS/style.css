@@ -313,8 +313,6 @@ div#learningcontent {
 }
 
 .headerbkg .withimage {
-  -webkit-filter: blur(19px);
-          filter: blur(19px);
   background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649165497/backgroiund.png) !important;
 }
 
