@@ -218,7 +218,7 @@ div#learningcontent {
 }
 
 .dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer {
-  background: inherit !important;
+  background: transparent !important;
 }
 
 .dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer .progress {
