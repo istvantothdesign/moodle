@@ -94,3 +94,8 @@
 .block_myoverview .small {
   font-size: 14px;
 }
+
+// Elipsis icon on hover (Course cards)
+.block.block-cards.btn.btn-link.btn-icon:hover {
+  background-color: #3127a4;
+}

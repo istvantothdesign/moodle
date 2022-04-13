@@ -262,6 +262,10 @@ div#learningcontent {
   font-size: 14px;
 }
 
+.block.block-cards.btn.btn-link.btn-icon:hover {
+  background-color: #3127a4;
+}
+
 #page-course-view-topics #learningcontent {
   background: transparent !important;
   height: 100%;
