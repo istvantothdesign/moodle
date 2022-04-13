@@ -1,4 +1,7 @@
 #page-footer {
+  a {
+    color: #3127a4 !important;
+  }
   .container {
     max-width: 1440px;
   }
@@ -8,11 +11,6 @@
     text-align: right;
     .footercontact {
       padding-left: 0;
-      .socials {
-        a {
-          color: #3127a4 !important;
-        }
-      }
     }
   }
 }

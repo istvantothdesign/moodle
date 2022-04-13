@@ -450,6 +450,10 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
           justify-content: center;
 }
 
+#page-footer a {
+  color: #3127a4 !important;
+}
+
 #page-footer .container {
   max-width: 1440px;
 }
@@ -460,10 +464,6 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
 
 #page-footer .brandbox .footercontact {
   padding-left: 0;
-}
-
-#page-footer .brandbox .footercontact .socials a {
-  color: #3127a4 !important;
 }
 
 #region-main.has-blocks
