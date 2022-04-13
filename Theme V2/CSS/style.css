@@ -446,6 +446,14 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
           justify-content: center;
 }
 
+#page-footer .container {
+  max-width: 1440px;
+}
+
+#page-footer .brandbox {
+  text-align: right;
+}
+
 #page-footer .brandbox .footercontact {
   padding-left: 0;
 }
