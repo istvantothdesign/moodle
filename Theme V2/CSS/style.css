@@ -196,8 +196,17 @@ div#learningcontent {
 }
 
 .dashboard-card-deck .dashboard-card {
-  background: green;
+  background: linear-gradient(181.64deg, #a9a4d9 0%, #3127a4 100%);
   color: white;
+}
+
+.dashboard-card-deck .dashboard-card:nth-of-type(2) {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb99a), to(#ff6f30));
+  background: linear-gradient(180deg, #ffb99a 0%, #ff6f30 100%);
+}
+
+.dashboard-card-deck .dashboard-card:nth-of-type(3) {
+  background: linear-gradient(181.64deg, #e1bdfe 0%, #a243ff 100%);
 }
 
 .dashboard-card-deck .dashboard-card .dashboard-card-img {
@@ -431,5 +440,11 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
 
 #page-footer .brandbox .footercontact {
   padding-left: 0;
+}
+
+#region-main.has-blocks
+.dashboard-card-deck:not(.fixed-width-cards)
+.dashboard-card {
+  width: calc(33.33% - 30px);
 }
 /*# sourceMappingURL=style.css.map */

@@ -34,8 +34,14 @@
 
 .dashboard-card-deck {
   .dashboard-card {
-    background: green;
+    background: linear-gradient(181.64deg, #a9a4d9 0%, #3127a4 100%);
     color: white;
+    &:nth-of-type(2) {
+      background: linear-gradient(180deg, #ffb99a 0%, #ff6f30 100%);
+    }
+    &:nth-of-type(3) {
+      background: linear-gradient(181.64deg, #e1bdfe 0%, #a243ff 100%);
+    }
     .dashboard-card-img {
       height: 15rem;
     }
