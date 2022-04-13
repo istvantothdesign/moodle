@@ -462,6 +462,10 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
   padding-left: 0;
 }
 
+#page-footer .brandbox .footercontact .socials a {
+  color: #3127a4 !important;
+}
+
 #region-main.has-blocks
 .dashboard-card-deck:not(.fixed-width-cards)
 .dashboard-card {
