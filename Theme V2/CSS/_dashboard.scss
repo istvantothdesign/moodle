@@ -19,6 +19,13 @@
   [data-region="filter"] {
     display: none !important;
   }
+  #page-content {
+    display: flex;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1440px;
+    }
+  }
 }
 
 #page-my-index .block_myoverview .card-body h5 {
