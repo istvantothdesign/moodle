@@ -16,6 +16,11 @@
   display: none !important;
 }
 #page-my-index {
+  #page-header {
+    .card {
+      background: transparent;
+    }
+  }
   [data-region="filter"] {
     display: none !important;
   }
@@ -53,6 +58,9 @@
       .progress {
         background: white !important;
         margin-bottom: 10px;
+        .progress-bar.bar {
+          background: #40b0b6;
+        }
       }
     }
   }
