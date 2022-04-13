@@ -34,11 +34,20 @@
 
 .dashboard-card-deck {
   .dashboard-card {
+    background: green;
+    color: white;
     .dashboard-card-img {
       height: 15rem;
     }
     .categoryname {
       display: none;
+    }
+    .card-footer.dashboard-card-footer {
+      background: inherit !important;
+      .progress {
+        background: white !important;
+        margin-bottom: 10px;
+      }
     }
   }
 }

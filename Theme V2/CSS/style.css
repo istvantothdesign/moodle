@@ -195,12 +195,26 @@ div#learningcontent {
   display: none !important;
 }
 
+.dashboard-card-deck .dashboard-card {
+  background: green;
+  color: white;
+}
+
 .dashboard-card-deck .dashboard-card .dashboard-card-img {
   height: 15rem;
 }
 
 .dashboard-card-deck .dashboard-card .categoryname {
   display: none;
+}
+
+.dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer {
+  background: inherit !important;
+}
+
+.dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer .progress {
+  background: white !important;
+  margin-bottom: 10px;
 }
 
 .block_myoverview .dashboard-card {
