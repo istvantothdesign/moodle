@@ -49,7 +49,7 @@ div#learningcontent {
   padding: 10px 20px;
   color: white;
   border: none;
-  background: #9243ff;
+  background: linear-gradient(-45deg, #3822e3 0%, #735de9 100%);
 }
 
 .card,
@@ -277,7 +277,7 @@ div#learningcontent {
 }
 
 #page-course-view-topics #page-header div {
-  max-width: 1000px !important;
+  max-width: 1440px !important;
 }
 
 #page-course-view-topics #page-content {
@@ -291,7 +291,7 @@ div#learningcontent {
 }
 
 #page-course-view-topics #page-content #region-main-box {
-  max-width: 1000px !important;
+  max-width: 1440px !important;
 }
 
 #page-course-view-topics #page-content #region-main-box #region-main {
