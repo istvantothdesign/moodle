@@ -170,7 +170,7 @@ div#learningcontent {
   display: none !important;
 }
 
-#page-my-index #page-header .card {
+#page-my-index .card {
   background: transparent;
 }
 
