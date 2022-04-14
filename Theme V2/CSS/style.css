@@ -477,6 +477,10 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
   margin: 0 0 20px 0;
 }
 
+.block_enrol_duration {
+  margin-top: 15px;
+}
+
 #page-footer {
   display: -webkit-box;
   display: -ms-flexbox;
