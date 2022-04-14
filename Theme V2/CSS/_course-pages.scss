@@ -10,6 +10,9 @@
     div {
       max-width: 1440px !important;
     }
+    .page-header-headings {
+      font-weight: 600;
+    }
   }
   #page-content {
     display: flex;
@@ -33,6 +36,9 @@
           display: flex;
           flex-wrap: wrap;
           // justify-content: space-between;
+          .section-title.sectionname {
+            font-weight: 500;
+          }
           .summarytext {
             display: flex;
             align-items: center;
@@ -81,7 +87,7 @@
 .headerbkg {
   .withimage {
     // filter: blur(19px);
-    background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649165497/backgroiund.png) !important;
+    background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649946120/Astutis%20background.jpg) !important;
   }
 }
 

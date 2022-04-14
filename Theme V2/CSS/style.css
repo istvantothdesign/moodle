@@ -288,6 +288,10 @@ div#learningcontent {
   max-width: 1440px !important;
 }
 
+#page-course-view-topics #page-header .page-header-headings {
+  font-weight: 600;
+}
+
 #page-course-view-topics #page-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,6 +325,10 @@ div#learningcontent {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-title.sectionname {
+  font-weight: 500;
 }
 
 #page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
@@ -382,7 +390,7 @@ div#learningcontent {
 }
 
 .headerbkg .withimage {
-  background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649165497/backgroiund.png) !important;
+  background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649946120/Astutis%20background.jpg) !important;
 }
 
 .editing #region-main-box {
