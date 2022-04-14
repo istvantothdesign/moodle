@@ -437,6 +437,30 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
   display: none;
 }
 
+.ast-course-progress-info__percentage {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.ast-course-progress-info__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ast-course-progress-info__wrp p {
+  margin: 0 0 20px 0;
+}
+
 #page-footer {
   display: -webkit-box;
   display: -ms-flexbox;

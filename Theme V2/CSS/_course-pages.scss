@@ -147,3 +147,20 @@ div.section-navigation:nth-child(1) > span:nth-child(1) {
 div.section-navigation:nth-child(3) > span:nth-child(1) {
   display: none;
 }
+
+// Course progress bar
+
+.ast-course-progress-info__percentage {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.ast-course-progress-info__wrp {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  p {
+    margin: 0 0 20px 0;
+  }
+}
