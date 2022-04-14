@@ -32,6 +32,8 @@ $e10: #ff522a;
 $e11: #3bd488;
 $e12: #e92438;
 $e13: #641ac2;
+$e14: #199bb7;
+$e15: #ee8823;
 
 $case-law: #7cc8bd;
 $discovery: #ff9a15;
@@ -351,6 +353,12 @@ $breakpoints: (
 }
 .ast-title--e13 {
   background: $e13;
+}
+.ast-title--e14 {
+  background: $e14;
+}
+.ast-title--e15 {
+  background: $e15;
 }
 .ast-title__img {
   width: 70px;
