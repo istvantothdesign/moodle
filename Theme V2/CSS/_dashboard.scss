@@ -16,14 +16,14 @@
   display: none !important;
 }
 #page-my-index {
-  .card {
-    background: transparent;
+  .block {
+    background: transparent !important;
   }
-  // #page-header {
-  //   .card {
-  //     background: transparent;
-  //   }
-  // }
+  #page-header {
+    .card {
+      background: transparent;
+    }
+  }
   [data-region="filter"] {
     display: none !important;
   }
