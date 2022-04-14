@@ -29,6 +29,9 @@
       }
     }
     .course-content {
+      .sectionname {
+        font-weight: 500;
+      }
       .section-summary {
         border: none;
         background: white;
@@ -38,9 +41,7 @@
           display: flex;
           flex-wrap: wrap;
           // justify-content: space-between;
-          .section-title.sectionname {
-            font-weight: 500;
-          }
+
           .summarytext {
             display: flex;
             align-items: center;

@@ -312,6 +312,10 @@ div#learningcontent {
   border: none !important;
 }
 
+#page-course-view-topics #page-content .course-content .sectionname {
+  font-weight: 500;
+}
+
 #page-course-view-topics #page-content .course-content .section-summary {
   border: none;
   background: white;
@@ -325,10 +329,6 @@ div#learningcontent {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-#page-course-view-topics #page-content .course-content .section-summary .content .section-title.sectionname {
-  font-weight: 500;
 }
 
 #page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
