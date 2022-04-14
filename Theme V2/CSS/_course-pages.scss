@@ -11,7 +11,9 @@
       max-width: 1440px !important;
     }
     .page-header-headings {
-      font-weight: 600;
+      h1 {
+        font-weight: 600;
+      }
     }
   }
   #page-content {

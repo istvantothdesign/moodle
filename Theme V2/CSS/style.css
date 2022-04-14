@@ -288,7 +288,7 @@ div#learningcontent {
   max-width: 1440px !important;
 }
 
-#page-course-view-topics #page-header .page-header-headings {
+#page-course-view-topics #page-header .page-header-headings h1 {
   font-weight: 600;
 }
 
