@@ -32,6 +32,9 @@
     justify-content: center;
     #region-main-box {
       max-width: 1440px;
+      #region-main {
+        background: transparent !important;
+      }
     }
   }
 }

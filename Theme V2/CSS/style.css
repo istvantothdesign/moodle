@@ -195,6 +195,10 @@ div#learningcontent {
   max-width: 1440px;
 }
 
+#page-my-index #page-content #region-main-box #region-main {
+  background: transparent !important;
+}
+
 #page-my-index .block_myoverview .card-body h5 {
   display: none !important;
 }
