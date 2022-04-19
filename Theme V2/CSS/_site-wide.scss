@@ -45,6 +45,12 @@ div#learningcontent {
   color: white;
   border: none;
   background: linear-gradient(-45deg, #3822e3 0%, #735de9 100%);
+  background-size: 1px 200px;
+
+  transition: all 2s ease-in-out;
+  &:hover {
+    background-position: 100px;
+  }
 }
 
 // Cards
