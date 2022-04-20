@@ -130,6 +130,7 @@ div#learningcontent {
 
 .block_user_favorites #block_user_favorites-items li {
   padding: 0 0 10px 0 !important;
+  border-radius: 0 !important;
 }
 
 #page-my-index .unlist,
