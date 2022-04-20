@@ -163,6 +163,10 @@ div#learningcontent {
   margin-bottom: 20px;
 }
 
+.block_enrol_duration br {
+  margin-bottom: 10px !important;
+}
+
 .navbar {
   padding: 2rem 1rem;
 }
