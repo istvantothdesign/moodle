@@ -58,6 +58,7 @@ div#learningcontent {
 .btn.btn-secondary:hover,
 .btn.btn-primary:hover {
   background: #4539d0 !important;
+  color: white !important;
 }
 
 .btn.btn-secondary:focus,
