@@ -45,18 +45,29 @@ div#learningcontent {
           justify-content: center;
 }
 
-.section-go-link.btn.btn-secondary {
+.btn.btn-secondary {
   padding: 10px 20px;
   color: white;
   border: none;
-  background: linear-gradient(-45deg, #3822e3 0%, #735de9 100%);
-  background-size: 1px 200px;
-  -webkit-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
+  background: #3127a4 !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  transition: all 0.25s ease-in-out !important;
 }
 
-.section-go-link.btn.btn-secondary:hover {
-  background-position: 100px;
+.btn.btn-secondary:hover {
+  background: #4539d0 !important;
+}
+
+.btn.btn-secondary:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: 0;
+}
+
+.btn.btn-secondary:active {
+  color: white !important;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 .card,
@@ -102,6 +113,18 @@ div#learningcontent {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.block_user_favorites {
+  padding: 0px !important;
+}
+
+.block_user_favorites #block_user_favorites-items {
+  padding: 0 !important;
+}
+
+.block_user_favorites #block_user_favorites-items li {
+  padding: 0 0 10px 0 !important;
 }
 
 .navbar {

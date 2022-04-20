@@ -40,16 +40,23 @@ div#learningcontent {
 }
 
 // Buttons
-.section-go-link.btn.btn-secondary {
+// .section-go-link.btn.btn-secondary
+.btn.btn-secondary {
   padding: 10px 20px;
   color: white;
   border: none;
-  background: linear-gradient(-45deg, #3822e3 0%, #735de9 100%);
-  background-size: 1px 200px;
-
-  transition: all 2s ease-in-out;
+  background: #3127a4 !important;
+  transition: all 0.25s ease-in-out !important;
   &:hover {
-    background-position: 100px;
+    background: #4539d0 !important;
+  }
+  &:focus {
+    box-shadow: none !important;
+    outline: 0;
+  }
+  &:active {
+    color: white !important;
+    transform: scale(0.95);
   }
 }
 
@@ -97,3 +104,14 @@ div#learningcontent {
 //     color: #3127a4 !important;
 //   }
 // }
+
+// User favourites block
+.block_user_favorites {
+  padding: 0px !important;
+  #block_user_favorites-items {
+    padding: 0 !important;
+    li {
+      padding: 0 0 10px 0 !important;
+    }
+  }
+}
