@@ -579,6 +579,7 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
 
 #page-my-index .block_user_favorites #block_user_favorites-items {
   padding: 0 !important;
+  background: none !important;
 }
 
 #page-my-index .block_user_favorites #block_user_favorites-items li {
