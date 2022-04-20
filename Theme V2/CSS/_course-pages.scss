@@ -204,6 +204,34 @@ div.section-navigation:nth-child(3) > span:nth-child(1) {
   margin-bottom: 20px;
 }
 
+// Exception for the dashboard
+#page-my-index {
+  .block_user_favorites {
+    padding: 0px !important;
+    .card-title {
+      visibility: hidden;
+      position: relative;
+      &::after {
+        visibility: visible;
+        position: absolute;
+        display: inline-block;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+        content: "Favourite pages";
+      }
+    }
+    #block_user_favorites-items {
+      padding: 0 !important;
+      li {
+        background: none !important;
+        padding: 0 0 10px 0 !important;
+        border-radius: 0 !important;
+      }
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .course-content ul.section {
     margin: 0;
