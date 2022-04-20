@@ -124,6 +124,21 @@ div#learningcontent {
   padding: 0px !important;
 }
 
+.block_user_favorites .card-title {
+  visibility: hidden;
+  position: relative;
+}
+
+.block_user_favorites .card-title::after {
+  visibility: visible;
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  content: "Favourite pages";
+}
+
 .block_user_favorites #block_user_favorites-items {
   padding: 0 !important;
 }
