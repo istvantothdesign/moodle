@@ -45,6 +45,13 @@ div#learningcontent {
           justify-content: center;
 }
 
+.breadcrumb .breadcrumb-item {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .btn.btn-secondary,
 .btn.btn-primary {
   padding: 10px 20px;

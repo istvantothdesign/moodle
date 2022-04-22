@@ -39,6 +39,16 @@ div#learningcontent {
   }
 }
 
+// Breadcrumb trail
+.breadcrumb {
+  .breadcrumb-item {
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
 // Buttons
 // .section-go-link.btn.btn-secondary
 .btn.btn-secondary,
