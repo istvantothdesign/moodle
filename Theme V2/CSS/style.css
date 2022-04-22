@@ -470,6 +470,12 @@ div#learningcontent {
   display: none;
 }
 
+.path-mod-book .book_toc li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 #page-mod-book-view #page-header {
   display: -webkit-box;
   display: -ms-flexbox;
