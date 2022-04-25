@@ -1041,10 +1041,6 @@ h2 {
   height: 100%;
 }
 
-.ast-crossed {
-  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), black 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%);
-}
-
 /* Leagacy
 .ast-floater {
   width: 450px;
