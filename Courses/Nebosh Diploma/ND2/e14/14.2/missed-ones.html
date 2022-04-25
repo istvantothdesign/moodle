@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://astutis.github.io/moodle/CSS/style.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .ast-crossed {
+        background: linear-gradient(
+          to top left,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0) calc(50% - 0.8px),
+          rgba(0, 0, 0, 1) 50%,
+          rgba(0, 0, 0, 0) calc(50% + 0.8px),
+          rgba(0, 0, 0, 0) 100%
+        );
+      }
+    </style>
+
+    <div
+      style="width: 100px; height: 100px; position: relative"
+      class="ast-crossed"
+    >
+      <p style="margin: 0; position: absolute; top: 0; left: 0">asd</p>
+      <p style="margin: 0; position: absolute; bottom: 0; right: 0">asd</p>
+    </div>
+
+    <!--Table Desktop Start-->
+    <div class="ast-table ast-table--desktop">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__heading">
+            <th class="ast-table__ctn__wrp__row--v">
+              Heading
+
+              <div
+                style="
+                  width: 50px;
+                  height: 30px;
+                  position: relative;
+                  background-color: white;
+                  color: black;
+                "
+                class="ast-crossed"
+              >
+                <p
+                  style="
+                    margin: 0 !important;
+                    padding: 0 3px;
+                    font-weight: normal;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                  "
+                >
+                  G
+                </p>
+                <p
+                  style="
+                    margin: 0 !important;
+                    padding: 0 3px;
+                    font-weight: normal;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                  "
+                >
+                  0
+                </p>
+              </div>
+            </th>
+            <th class="ast-table__ctn__wrp__row--v">Heading</th>
+            <th class="ast-table__ctn__wrp__row--v">Heading</th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+            <td class="ast-table__ctn__wrp__row--v">Table</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+  </body>
+</html>
