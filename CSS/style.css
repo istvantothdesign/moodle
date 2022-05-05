@@ -568,10 +568,28 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Old Alphabetical order
 .ast-list__aplhabet {
   list-style: lower-alpha;
   padding-left: 0;
   margin-bottom: 0;
+  li:last-child {
+    margin-bottom: 0px;
+  }
+}
+.ast-list__aplhabet__item {
+  margin: 0 0 20px 20px;
+  padding-left: 15px;
+  &::marker {
+    color: $purple;
+  }
+}
+*/
+.ast-list__aplhabet {
+  /* list-style: lower-alpha; */
+  padding-left: 0;
+  margin-bottom: 0;
+  counter-reset: list;
 }
 
 .ast-list__aplhabet li:last-child {
@@ -581,10 +599,17 @@ h2 {
 .ast-list__aplhabet__item {
   margin: 0 0 20px 20px;
   padding-left: 15px;
+  position: relative;
+  list-style: none;
 }
 
-.ast-list__aplhabet__item::marker {
+.ast-list__aplhabet__item:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+  position: absolute;
+  left: -0.8em;
   color: #a243ff;
+  font-weight: 600;
 }
 
 .ast-quote {
