@@ -1,0 +1,57 @@
+.brand1 {
+  background-color: #3e3eff;
+  color: white;
+}
+
+.brand2 {
+  background-color: #a243ff;
+  color: white;
+}
+
+.brand3 {
+  background-color: hsl(240, 100%, 96%);
+}
+
+.brandImage1 {
+  background-image: url("../img/BrandingImage1.jpg");
+}
+
+.brandImage2 {
+  background-image: url("../img/BrandingImage2.jpg");
+}
+
+.fc-dayGridMonth-button,
+.fc-listMonth-button {
+  background-color: #3e3eff !important;
+}
+
+.fc-dayGridMonth-button.active,
+.fc-listMonth-button.active {
+  background-color: hsl(240, 100%, 55%) !important;
+}
+
+.fc-dayGridMonth-button:hover,
+.fc-listMonth-button:hover {
+  background-color: hsl(240, 100%, 55%) !important;
+}
+
+.fc-prev-button,
+.fc-next-button,
+.brand4 {
+  background-color: #3e3eff;
+}
+
+.fc-prev-button:hover,
+.fc-next-button:hover,
+.brand4:hover {
+  background-color: hsl(240, 100%, 55%) !important;
+}
+
+.logo-ctn {
+  margin-bottom: 40px;
+}
+
+.tick-symbol {
+  background: white;
+  padding: 3px;
+}

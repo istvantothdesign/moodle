@@ -1,0 +1,22 @@
+.timeline_event {
+    position: absolute;
+    display: inline-block;
+    width: 18%;
+    margin-left: -9%;
+    text-align: center;
+}
+.summary_indent {
+    width: 5%;
+    display: inline-block;
+}
+.btn-orange:link, .btn-orange:visited {
+    color: #fff;
+    background-color: #E56324;
+    border-color: #E56324;
+
+}
+.btn-orange:active, .btn-orange:hover {
+    color: #fff;
+    background-color: #c04e17;
+    border-color: #c04e17;
+}
