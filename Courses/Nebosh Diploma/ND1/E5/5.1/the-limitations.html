@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://astutis.github.io/moodle/CSS/style.css"
+    />
+    <title>The limitations of accident and incident data</title>
+  </head>
+  <body>
+    <!-- Astutis code start -->
+    <!--Title 5 Start-->
+    <div class="ast-title ast-title--e5">
+      <h2>The limitations of accident and incident data</h2>
+      <img
+        class="ast-title__img"
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/696582969/symi0786_Tools.svg"
+      />
+    </div>
+    <!--Title 5 End-->
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Introduction</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      It is difficult, if not impossible, to gain information from every member
+      of a defined population. Typically, sample data is obtained from a
+      (hopefully) representative sample of the population and inferences are
+      made regarding the population as a whole.
+    </p>
+    <p>
+      The larger the sample the more likely it is to be representative of the
+      whole. If several large samples were randomly taken from the same
+      population you might expect slight variations, however they would be
+      expected to be similar to each other and to the population as a whole.
+    </p>
+    <p>
+      Statistical models are used to assess how closely the sample data
+      represents the population at large.
+    </p>
+    <p>
+      The mean is the simplest statistical model. Adding a range of values
+      together and dividing by the number of values gives the arithmetical mean.
+      This is a hypothetical value in that it need not match any of the actual
+      values and may well be a fraction where this would be impossible (e.g. 2.4
+      children).
+    </p>
+    <p>
+      How representative a model is can be determined by comparing the
+      differences (deviances) between actual observed measures and the model
+      (the mean).
+    </p>
+
+    <img
+      src="https://mylearning.astutis.com/pluginfile.php/259/mod_book/chapter/175/cgdi0162_observed_mean_LTAs-web.jpg"
+      alt=""
+      class="ast-img"
+    />
+
+    <p>
+      The total error in the model could be calculated by adding up all the
+      deviances however this would balance out at zero, with the positive and
+      negative deviances balancing each other out.
+    </p>
+    <p>
+      To address this, the sum of squared errors is calculated to give an
+      overall positive number. This then poses a different problem in that the
+      number gets ever larger with the population size.
+    </p>
+    <p>
+      Dividing the sum of squared errors by n – 1 (the number of observations
+      minus one) calculates the variance which is the average error between the
+      mean and the observations made.
+    </p>
+    <p>
+      The problem with the variance as a measure is that it is in units squared.
+      By taking the square root of the variance the measure of average error is
+      being made in the same units as the original measure. This is known as the
+      standard deviation (SD or σ ‑ sigma).
+    </p>
+    <p>
+      The standard deviation is a useful measure of the fit of the model, i.e.
+      how well the mean fits the data. A small standard deviation indicates that
+      observed data points are close to the mean. A large standard deviation
+      means that the observed data points are distant from the mean (i.e. that
+      the mean is not an accurate representation of the data).
+    </p>
+    <p>
+      With a normally distributed population the standard deviation is also
+      useful in understanding proportions under the curve. The point of
+      inflection (see below) is the point at which the curve changes from convex
+      to concave and begins to tail off. The distance from the mean to the point
+      of inflection is equal to one SD. The range of mean plus or minus one
+      standard deviation (M ± 1SD or 2SD or 2σ) encompasses approximately 68% of
+      the sample population. 95% of the population is in the range M ± 2SD (or
+      4SD or 4σ). 99.7% of the population is within M ± 3SD (or 6SD or 6σ).
+    </p>
+
+    <img
+      src="https://mylearning.astutis.com/pluginfile.php/259/mod_book/chapter/175/cgdi0163_proportions_under_normally_distributed_curve-web.jpg"
+      alt=""
+      class="ast-img"
+    />
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Statistical variability</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      A variable is something that changes (or varies). The variation may be
+      between individuals (example: height, IQ, eye colour), by geographical
+      location (example: site A or site B), or over time (example: by quarter or
+      by year).
+    </p>
+    <p>Variables may be:</p>
+    <p>
+      <span class="ast-bold">Categorical</span> – one that names distinct
+      entities. Categorical variables may be:
+    </p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">binary</span> – when there are only 2 options.
+          For example: Yes/No or Ill/Well
+        </li>
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">nominal</span> – when there are more than two
+          options. For example: Over 3 day injury / Specified major
+          injury/Dangerous occurrence
+        </li>
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">ordinal</span> – when categories are placed in
+          order of occurrence.
+        </li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <p>
+      <span class="ast-bold">Continuous</span> – a continuous variable gives a
+      score on a scale. Continuous variables include:
+    </p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">interval</span> variables – where the intervals
+          on a scale represent equal differences in the property being measured
+        </li>
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">ratio</span> variables – have a meaningful zero
+          and a difference on the scale means the same wherever it is along the
+          scale.
+        </li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <p>
+      When testing hypothesis (example hypotheses: exposure to chemical A causes
+      illness B) the effect variable is said to be dependent upon the cause
+      variable. These are also known as
+      <span class="ast-bold">predictor variable</span> and
+      <span class="ast-bold">outcome variable</span>.
+    </p>
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Validity and reliability</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      Variables should be measurable consistently over time and across
+      locations. For directly measurable variables, suitably calibrated
+      equipment (examples: sound level meter, weighing scales or thermometer)
+      help to ensure the consistency of measurement. In other cases variables
+      are measured indirectly using tools such as self-assessment
+      questionnaires.
+    </p>
+
+    <!--Astutis Two Column Layout Start-->
+    <div class="ast-p-and-img">
+      <div class="ast-p-and-img__p">
+        <!--Blue Box - Single Paragraph Start-->
+        <div class="ast-blue-box-container">
+          <div class="ast-blue-box ast-table__ctn__wrp__data__row-even">
+            <p>
+              The <span class="ast-bold">validity</span> of a measure indicates
+              whether an instrument actually measures what it is intended to
+              measure.
+            </p>
+          </div>
+        </div>
+        <!--Blue Box - Single Paragraph End-->
+      </div>
+      <div class="ast-p-and-img__p">
+        <!--Blue Box - Single Paragraph Start-->
+        <div class="ast-blue-box-container">
+          <div class="ast-blue-box ast-table__ctn__wrp__data__row-odd">
+            <p>
+              The <span class="ast-bold">reliability</span> of a measure relates
+              to the consistency of measures across different situations.
+            </p>
+          </div>
+        </div>
+        <!--Blue Box - Single Paragraph End-->
+      </div>
+    </div>
+    <!--Astutis Two Column Layout End-->
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Chance and bias</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      The results of a test sample may vary from the population at large due to
+      chance or random fluctuation. This is most likely with a small sample
+      which is less likely to be representative of the parent population than a
+      large sample. For example, if a coin is tossed three times and comes up
+      heads each time this is a matter of chance and is not representative of
+      the expected result in a larger population. If a coin is tossed one
+      thousand times, the heads: tails ratio should be close to 50:50.
+    </p>
+    <p>
+      <span class="ast-bold">Bias</span> is a systematic (or non-random)
+      variation between a sample population and the parent population. The major
+      biases are:
+    </p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">Measurement bias</span> – Example: an
+          incorrectly calibrated measurement device delivers consistently
+          incorrect results
+        </li>
+        <li class="ast-list__bullet__item">
+          <span class="ast-bold">Selection bias</span> where a sample population
+          is personally selected. Example: in market research work researchers
+          are more likely to approach the people who appear most approachable –
+          this group may be quite different from the parent population of all
+          people on the street.
+        </li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <!--Explore More Start-->
+    <div class="ast-card">
+      <div class="ast-card__img-wrp ast-explore">
+        <img
+          src="https://mylearning.astutis.com/pluginfile.php/294/mod_book/chapter/306/Explore%20more-icon%20new.png
+              "
+          width="120"
+        />
+      </div>
+      <div class="ast-card__ctnt-wrp ast-explore">
+        <h4 class="ast-card__ctnt-wrp__header">Explore more</h4>
+        <div class="ast-card__ctnt-wrp__ctnt">
+          <p>Watch the below video and answer the following questions:</p>
+          <br />
+          <ol class="ast-list__numbered--plain">
+            <li>How can visualisations of data be misleading?</li>
+            <li>What are some other limitations of data?</li>
+          </ol>
+          <div class="ast-embed">
+            <iframe
+              class="ast-embed__iframe"
+              src="https://www.youtube.com/embed/k6_Pip4B1xw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Explore More End-->
+
+    <!-- Astutis code end -->
+  </body>
+</html>
