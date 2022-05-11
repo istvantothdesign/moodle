@@ -73,6 +73,7 @@
 .navbar {
   display: flex;
   justify-content: center;
+  background-color: #0c0b28;
 }
 
 .navbar__ctn {
@@ -98,4 +99,11 @@
   width: 100%;
   text-align: center;
   padding-right: 40px;
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+  .pageTitle {
+    text-align: center;
+  }
 }
