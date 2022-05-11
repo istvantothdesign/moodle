@@ -1,0 +1,16 @@
+#page-footer {
+  a {
+    color: #3127a4 !important;
+  }
+  .container {
+    max-width: 1440px;
+  }
+  display: flex;
+  justify-content: center;
+  .brandbox {
+    text-align: right;
+    .footercontact {
+      padding-left: 0;
+    }
+  }
+}

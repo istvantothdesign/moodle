@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TrackSmart&trade;</title>
+    <base href="../"/>
+	<script type="text/javascript" src="./js/SCORM_API_wrapper.js"></script>
+	<script type="text/javascript" src="./js/scorm_api.js"></script>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+	<script type="text/javascript">
+		SCORMConnect();
+        setComplete();
+	</script>
+</head>
+<body onunload="unloadPage();" style="overflow:hidden;">
+<div id="controlDiv" style="width:100%; height:100%; position: absolute; top: 0px; left: 0px; margin: 0px; padding: 0px;">
+<iframe src="./html/ng-ig_online_intro.html" id="smartTrack_frame" name="smartTrack_frame" frameborder="0" width="100%" height="100%" scrolling="auto"></iframe>
+</div>
+</body>
+</html>

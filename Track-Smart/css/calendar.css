@@ -1,0 +1,59 @@
+/*a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    font-stretch: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}*/
+
+.fc-view-container {
+    position: relative;
+}
+.fc-view-container *, .fc-view-container :after, .fc-view-container :before {
+    box-sizing: content-box;
+}
+.fc-view, .fc-view>table {
+    position: relative;
+    z-index: 1;
+}
+.fc-unthemed .fc-content, .fc-unthemed .fc-dicider, .fc-unthemed .fc-list-heading td, .fc-unthemed .fc-list-view, .fc-unthemed .fc-popover, .fc-unthemed .fc-row, .fc-unthemed tbody, .fc-unthemed td, .fc-unthemed th, .fc-unthemed thead {
+    border-color: #ddd;
+}
+.fc td, .fc th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px;
+    vertical-align: top;
+}
+.fc .fc-row {
+    border-style: solid;
+    border-width: 0;
+}
+.fc-row {
+    position: relative;
+}
+.fc_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+.fc-scroller>.fc-day-grid, .fc-scroller>.fc-time-grid {
+    position: relative;
+    width: 100%;
+}
+.fc-dayGrid-view .fc-body .fc-row {
+    min-height: 4em;
+}
+.fc-row.fc-rigid{
+    overflow: hidden;
+}
+.fc-day-grid .fc-row{
+    z-index: 1;
+}
+.fc-row .fc-bg

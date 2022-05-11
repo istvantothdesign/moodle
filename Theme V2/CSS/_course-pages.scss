@@ -1,0 +1,257 @@
+// Course pages
+#page-course-view-topics {
+  #learningcontent {
+    background: transparent !important;
+    height: 100%;
+  }
+  #page-header {
+    display: flex;
+    justify-content: center;
+    div {
+      max-width: 1440px !important;
+    }
+    .page-header-headings {
+      h1 {
+        font-weight: 600;
+      }
+    }
+  }
+  #page-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1440px !important;
+      #region-main {
+        background: transparent !important;
+        padding: 0 !important;
+        border: none !important;
+      }
+    }
+    .course-content {
+      .sectionname {
+        font-weight: 500;
+      }
+      .section-summary {
+        border: none;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        .content {
+          display: flex;
+          flex-wrap: wrap;
+          // justify-content: space-between;
+
+          .summarytext {
+            display: flex;
+            align-items: center;
+            a {
+              order: 2;
+            }
+            div {
+              order: 1;
+            }
+          }
+          .progress {
+            display: none;
+          }
+          .section-summary-activities {
+            .activity-count:nth-child(1) {
+              display: none;
+            }
+            .activity-count:nth-child(2) {
+              display: none;
+            }
+            .activity-count:nth-child(3) {
+              display: none;
+            }
+            .activity-count:nth-child(4) {
+              margin-right: 20px;
+            }
+            br {
+              display: none;
+            }
+          }
+          .section-title.sectionname {
+            flex: 1;
+          }
+        }
+      }
+      .single-section {
+        background: transparent !important;
+        padding: 0px !important;
+        border: none !important;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.headerbkg {
+  .withimage {
+    // filter: blur(19px);
+    background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649946120/Astutis%20background.jpg) !important;
+  }
+}
+
+.editing {
+  #region-main-box {
+    background: white !important;
+    padding: 20px !important;
+    border: none !important;
+    border-radius: 5px;
+  }
+}
+
+// Section name
+.single-section {
+  h3.sectionname {
+    text-align: left;
+  }
+}
+
+// Acctivity completion
+.activity-information {
+  display: none;
+}
+
+// Books
+.path-mod-book {
+  .book_toc {
+    li {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+#page-mod-book-view {
+  #page-header {
+    display: flex;
+    justify-content: center;
+    div {
+      max-width: 1440px !important;
+    }
+  }
+  #page-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1440px !important;
+    }
+  }
+}
+
+// Course navigation (REFACTORING NEEDED)
+
+// Top
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+
+div.section-navigation:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+
+div.section-navigation:nth-child(3) > span:nth-child(2) {
+  display: none;
+}
+
+// Bottom
+div.section-navigation:nth-child(1) > span:nth-child(1) {
+  display: none;
+}
+div.section-navigation:nth-child(3) > span:nth-child(1) {
+  display: none;
+}
+
+// Course progress bar
+
+.ast-course-progress-info__percentage {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.ast-course-progress-info__wrp {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  p {
+    margin: 0 0 20px 0;
+  }
+}
+
+// Enrolment duration  block
+.block_enrol_duration {
+  margin-top: 15px;
+}
+
+// Activity page quick fix
+
+/* all | https://mylearningdev2.astutis.com/theme/styles.php/fordson/1650358149_1/all */
+
+.course-content .single-section .section-navigation {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.unlist,
+.unlist li,
+.inline-list,
+.inline-list li,
+.block .list,
+.block .list li,
+.section li.activity,
+.section li.movehere,
+.tabtree li {
+  background: white;
+  padding: 20px !important;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+// Exception for the dashboard
+#page-my-index {
+  .block_user_favorites {
+    padding: 0px !important;
+    .card-title {
+      visibility: hidden;
+      position: relative;
+      &::after {
+        visibility: visible;
+        position: absolute;
+        display: inline-block;
+        white-space: nowrap;
+        top: 0;
+        left: 0;
+        content: "Favourite pages";
+      }
+    }
+    #block_user_favorites-items {
+      padding: 0 !important;
+      background: none !important;
+      li {
+        background: none !important;
+        padding: 0 0 10px 0 !important;
+        border-radius: 0 !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .course-content ul.section {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* style.css | https://astutis.github.io/moodle/Theme%20V2/CSS/style.css */
+
+#page-course-view-topics #page-content .course-content .single-section {
+  overflow: hidden;
+}

@@ -89,6 +89,13 @@ h2 {
   background: #ffffff;
 }
 
+@media (min-width: 992px) {
+  .path-course #region-main-box {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
 /*Usage
 .selector {
   color: red;
@@ -308,12 +315,7 @@ h2 {
 .ast-title h2 {
   margin: 20px 0;
 }
-@media (min-width:992px) {
-  .path-course #region-main-box {
-   max-width: 100%;
-   margin:auto
-  }
- }
+
 @media (max-width: 767px) {
   .ast-title {
     display: -webkit-box;
@@ -394,7 +396,15 @@ h2 {
 }
 
 .ast-title--e13 {
-  background: #641AC2;
+  background: #641ac2;
+}
+
+.ast-title--e14 {
+  background: #199bb7;
+}
+
+.ast-title--e15 {
+  background: #ee8823;
 }
 
 .ast-title__img {
@@ -558,10 +568,28 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Old Alphabetical order
 .ast-list__aplhabet {
   list-style: lower-alpha;
   padding-left: 0;
   margin-bottom: 0;
+  li:last-child {
+    margin-bottom: 0px;
+  }
+}
+.ast-list__aplhabet__item {
+  margin: 0 0 20px 20px;
+  padding-left: 15px;
+  &::marker {
+    color: $purple;
+  }
+}
+*/
+.ast-list__aplhabet {
+  /* list-style: lower-alpha; */
+  padding-left: 0;
+  margin-bottom: 0;
+  counter-reset: list;
 }
 
 .ast-list__aplhabet li:last-child {
@@ -571,10 +599,17 @@ h2 {
 .ast-list__aplhabet__item {
   margin: 0 0 20px 20px;
   padding-left: 15px;
+  position: relative;
+  list-style: none;
 }
 
-.ast-list__aplhabet__item::marker {
+.ast-list__aplhabet__item:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+  position: absolute;
+  left: -0.8em;
   color: #a243ff;
+  font-weight: 600;
 }
 
 .ast-quote {
@@ -1017,11 +1052,12 @@ h2 {
 .ast-explore img {
   content: url("https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/explore-more-icon.png");
 }
+
 /*Exit activity button (visible in SCORM activities)*/
 #page-header .ml-auto.d-flex {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*Lottie player*/

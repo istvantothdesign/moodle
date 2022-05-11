@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: #16d0f5;
+        color: #ffffff;
+        padding: 20px;
+        overflow: auto;
+        vertical-align: bottom;
+        border-radius: 10px;
+      "
+    >
+      <img
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/262312121/symi0786_Tools.png"
+        width="80"
+        align="right"
+      />
+      <h2 style="padding-top: 24px">
+        The limitations of accident and incident data<br />
+      </h2>
+    </div>
+    <br />
+
+    <!--SUB-SUB-HEAD-->
+    <p style="color: #3e3eff"><strong>Introduction</strong></p>
+    <p>
+      It is difficult, if not impossible, to gain information from every member
+      of a defined population. Typically, sample data is obtained from a
+      (hopefully) representative sample of the population and inferences are
+      made regarding the population as a whole.
+    </p>
+    <p>
+      The larger the sample the more likely it is to be representative of the
+      whole. If several large samples were randomly taken from the same
+      population you might expect slight variations, however they would be
+      expected to be similar to each other and to the population as a whole.
+    </p>
+    <p>
+      Statistical models are used to assess how closely the sample data
+      represents the population at large.
+    </p>
+    <p>
+      The mean is the simplest statistical model. Adding a range of values
+      together and dividing by the number of values gives the arithmetical mean.
+      This is a hypothetical value in that it need not match any of the actual
+      values and may well be a fraction where this would be impossible (e.g. 2.4
+      children).
+    </p>
+    <p>
+      How representative a model is can be determined by comparing the
+      differences (deviances) between actual observed measures and the model
+      (the mean).
+    </p>
+    <p>
+      <img
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/262312121/cgdi0162_observed_mean_LTAs-web.jpg"
+        width="100%"
+      /><br />
+    </p>
+    <p>
+      The total error in the model could be calculated by adding up all the
+      deviances however this would balance out at zero, with the positive and
+      negative deviances balancing each other out.
+    </p>
+    <p>
+      To address this, the sum of squared errors is calculated to give an
+      overall positive number. This then poses a different problem in that the
+      number gets ever larger with the population size.
+    </p>
+    <p>
+      Dividing the sum of squared errors by n – 1 (the number of observations
+      minus one) calculates the variance which is the average error between the
+      mean and the observations made.
+    </p>
+    <p>
+      The problem with the variance as a measure is that it is in units squared.
+      By taking the square root of the variance the measure of average error is
+      being made in the same units as the original measure. This is known as the
+      standard deviation (SD or σ ‑ sigma).
+    </p>
+    <p>
+      The standard deviation is a useful measure of the fit of the model, i.e.
+      how well the mean fits the data. A small standard deviation indicates that
+      observed data points are close to the mean. A large standard deviation
+      means that the observed data points are distant from the mean (i.e. that
+      the mean is not an accurate representation of the data).
+    </p>
+    <p>
+      With a normally distributed population the standard deviation is also
+      useful in understanding proportions under the curve. The point of
+      inflection (see below) is the point at which the curve changes from convex
+      to concave and begins to tail off. The distance from the mean to the point
+      of inflection is equal to one SD. The range of mean plus or minus one
+      standard deviation (M ± 1SD or 2SD or 2σ) encompasses approximately 68% of
+      the sample population. 95% of the population is in the range M ± 2SD (or
+      4SD or 4σ). 99.7% of the population is within M ± 3SD (or 6SD or 6σ).
+    </p>
+    <p>
+      <img
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/262312121/cgdi0163_proportions_under_normally_distributed_curve-web.jpg"
+        width="100%"
+      /><br />
+    </p>
+
+    <!--SUB-SUB-HEAD-->
+    <p style="color: #3e3eff"><strong>Statistical variability</strong></p>
+    <p>
+      A variable is something that changes (or varies). The variation may be
+      between individuals (example: height, IQ, eye colour), by geographical
+      location (example: site A or site B), or over time (example: by quarter or
+      by year).
+    </p>
+    <p>Variables may be:</p>
+    <p>
+      <strong>Categorical</strong> – one that names distinct entities.
+      Categorical variables may be:
+    </p>
+
+    <!--BULLET POINTS-->
+    <div
+      style="
+        background-color: #f6ecff;
+        width: 725px;
+        padding: 25px;
+        margin: auto;
+        border-radius: 10px;
+      "
+    >
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px; padding-bottom: 15px">
+        <strong> binary</strong> – when there are only 2 options. For example:
+        Yes/No or Ill/Well
+      </div>
+      <br />
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px; padding-bottom: 15px">
+        <strong> nominal</strong> – when there are more than two options. For
+        example: Over 3 day injury / Specified major injury/Dangerous occurrence
+      </div>
+      <br />
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px">
+        <strong> ordinal</strong> – when categories are placed in order of
+        occurrence.
+      </div>
+      <br />
+    </div>
+    <br />
+
+    <p>
+      <strong>Continuous</strong> – a continuous variable gives a score on a
+      scale. Continuous variables include:
+    </p>
+
+    <!--BULLET POINTS-->
+    <div
+      style="
+        background-color: #f6ecff;
+        width: 725px;
+        padding: 25px;
+        margin: auto;
+        border-radius: 10px;
+      "
+    >
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px; padding-bottom: 15px">
+        <strong> interval variables</strong> – where the intervals on a scale
+        represent equal differences in the property being measured
+      </div>
+      <br />
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px">
+        <strong> ratio variables</strong> – have a meaningful zero and a
+        difference on the scale means the same wherever it is along the scale.
+      </div>
+      <br />
+    </div>
+    <br />
+    <p>
+      When testing hypothesis (example hypotheses: exposure to chemical A causes
+      illness B) the effect variable is said to be dependent upon the cause
+      variable. These are also known as <strong>predictor variable</strong> and
+      <strong>outcome variable</strong>.
+    </p>
+    <br />
+
+    <!--SUB-SUB-HEAD-->
+    <p style="color: #3e3eff"><strong>Validity and reliability</strong></p>
+    <p>
+      Variables should be measurable consistently over time and across
+      locations. For directly measurable variables, suitably calibrated
+      equipment (examples: sound level meter, weighing scales or thermometer)
+      help to ensure the consistency of measurement. In other cases variables
+      are measured indirectly using tools such as self-assessment
+      questionnaires.
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div
+            style="
+              background-color: #ecd9ff;
+              padding: 10px;
+              border-radius: 15px;
+              text-align: center;
+            "
+          >
+            The <strong>validity</strong> of a measure indicates whether an
+            instrument actually measures what it is intended to measure.
+          </div>
+        </div>
+        <div class="col">
+          <div
+            style="
+              background-color: #e3c6ff;
+              padding: 10px;
+              border-radius: 15px;
+              text-align: center;
+            "
+          >
+            The <strong>reliability</strong> of a measure relates to the
+            consistency of measures across different situations.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <!--SUB-SUB-HEAD-->
+    <p style="color: #3e3eff"><strong>Chance and bias</strong></p>
+    <p>
+      The results of a test sample may vary from the population at large due to
+      chance or random fluctuation. This is most likely with a small sample
+      which is less likely to be representative of the parent population than a
+      large sample. For example, if a coin is tossed three times and comes up
+      heads each time this is a matter of chance and is not representative of
+      the expected result in a larger population. If a coin is tossed one
+      thousand times, the heads: tails ratio should be close to 50:50.
+    </p>
+    <p>
+      <strong>Bias </strong>is a systematic (or non-random) variation between a
+      sample population and the parent population. The major biases are:
+    </p>
+
+    <!--BULLET POINTS-->
+    <div
+      style="
+        background-color: #f6ecff;
+        width: 725px;
+        padding: 25px;
+        margin: auto;
+        border-radius: 10px;
+      "
+    >
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px; padding-bottom: 15px">
+        <strong> Measurement bias </strong>– <em>Example:</em> an incorrectly
+        calibrated measurement device delivers consistently incorrect results
+      </div>
+      <br />
+      <div
+        style="
+          display: inline-block;
+          color: #a243ff;
+          width: 20px;
+          vertical-align: top;
+          font-size: 28px;
+          line-height: 0.7;
+        "
+      >
+        ‣
+      </div>
+      <div style="display: inline-block; width: 625px">
+        <strong> Selection bias </strong>where a sample population is personally
+        selected. Example: in market research work researchers are more likely
+        to approach the people who appear most approachable – this group may be
+        quite different from the parent population of all people on the street.
+      </div>
+      <br />
+    </div>
+    <br /><br />
+
+    <!--EXPLORE MORE NEW-->
+    <div style="position: relative">
+      <div
+        style="
+          background-color: #3e3eff;
+          padding-left: 21px;
+          padding-top: 17px;
+          padding-bottom: 15px;
+          padding-right: 15px;
+          border-radius: 10px;
+          height: 130px;
+          width: 160px;
+          float: left;
+          position: absolute;
+        "
+      >
+        <img
+          src="https://mylearning.astutis.com/draftfile.php/524/user/draft/262312121/Explore%20more-icon%20new%20%281%29.png"
+          width="95"
+        />
+      </div>
+      <div
+        style="
+          background-color: #3e3eff;
+          padding: 10px;
+          border-radius: 10px;
+          margin-left: 130px;
+          position: relative;
+        "
+      >
+        <h4 style="color: #ffffff; padding-left: 23px">Explore more</h4>
+        <div
+          style="background-color: #ffffff; border-radius: 10px; padding: 30px"
+        >
+          <p style="padding-bottom: 5px">
+            Watch the below video and answer the following questions:
+          </p>
+          <ol>
+            <li style="padding-bottom: 5px">
+              How can visualisations of data be misleading?
+            </li>
+            <li style="padding-bottom: 10px">
+              What are some other limitations of data?
+            </li>
+          </ol>
+          <br />
+          <div style="text-align: center">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/k6_Pip4B1xw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </body>
+</html>

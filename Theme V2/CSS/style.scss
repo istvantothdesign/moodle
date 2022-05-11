@@ -1,0 +1,13 @@
+// Imports
+@import "_site-wide";
+@import "_navigation";
+@import "_dashboard";
+@import "_course-pages";
+@import "_footer";
+
+// Media queries
+#region-main.has-blocks
+  .dashboard-card-deck:not(.fixed-width-cards)
+  .dashboard-card {
+  width: calc(33.33% - 30px);
+}

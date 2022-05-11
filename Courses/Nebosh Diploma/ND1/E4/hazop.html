@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://astutis.github.io/moodle/CSS/style.css"
+    />
+    <title>HAZOP</title>
+  </head>
+  <body>
+    <!-- Astutis code start -->
+    <!--Title 4 Start-->
+    <div class="ast-title ast-title--e4">
+      <h2>HAZOP</h2>
+      <img
+        class="ast-title__img"
+        src="https://mylearning.astutis.com/draftfile.php/524/user/draft/624465053/symi0758_Magnify.svg"
+      />
+    </div>
+    <!--Title 4 End-->
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Introduction</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      The Hazard and Operability (HAZOP) Study methodology was devised by ICI in
+      the late 1960s, as an evolution of method study, for use during the design
+      stage of a project to identify and correct design faults which might lead
+      to Hazard or Operability problems. HAZOP is now also used for
+      modifications and for reviews of existing plant.
+    </p>
+    <p>
+      HAZOP is the primary tool for the identification of weaknesses in the
+      process design and is used world-wide within process industries including
+      chemical, petrochemical, oil and gas, pharmaceutical and general
+      manufacturing.
+    </p>
+    <p>
+      The Institute of Chemical Engineers (IChemE) HAZOP guide was first
+      published in 1977. It has been regularly updated since and provides
+      definitive guidance on the HAZOP study methodology.
+    </p>
+    <p>
+      There is also a British Standard,
+      <span class="ast-bold"
+        >BS EN 61882:2016
+        <span class="ast-italic"
+          >“Hazard and Operability Studies (HAZOP studies) - Application
+          Guide.”</span
+        ></span
+      >
+    </p>
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Purpose</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      The main purpose of a HAZOP study is to identify and evaluate process and
+      operation hazards within a planned process or operation that have not been
+      identified or designed out in earlier stages. Hazards may harm people and
+      property on or off-site, or may be harmful to the environment or have
+      major financial consequences.
+    </p>
+    <p>
+      HAZOP studies may also be used to identify significant operability or
+      quality problems. The need to consider quality issues varies greatly with
+      the details of the operation but in some industries it is a crucial area.
+      Many operability problems also lead to hazards, giving a dual reason for
+      identifying and controlling them.
+    </p>
+    <p>
+      HAZOP studies should also cover aspects of maintenance operations,
+      including isolation, preparation and removal for maintenance since these
+      often create hazards as well as an operability problem. Detailed ergonomic
+      analysis may be necessary for manual operations or activities.
+    </p>
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Overview</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      The study begins with the creation of a conceptual model of the system or
+      operation, using all available, relevant material such as:
+    </p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">
+          Existing detailed design drawings;
+        </li>
+        <li class="ast-list__bullet__item">
+          An outline of operating procedures;
+        </li>
+        <li class="ast-list__bullet__item">Material data sheets; and</li>
+        <li class="ast-list__bullet__item">Reports from earlier studies.</li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <p>
+      The system is then
+      <span class="ast-bold">broken down into stages</span> (sections) for
+      analysis.
+    </p>
+    <p>
+      Consideration of possible <span class="ast-bold">deviations</span> from
+      the <span class="ast-bold">design intention</span> of the stage under
+      review leads to the identification of hazards and potential operating
+      problems.
+    </p>
+    <p>
+      <span class="ast-bold">Deviations from design intent</span> are generated
+      by grouping together a <span class="ast-bold">guideword</span> (see table
+      below) and a <span class="ast-bold">parameter</span> (also known as a
+      property or system property). NB it is this process that distinguishes a
+      HAZOP study.
+    </p>
+    <p>
+      Where the HAZOP team can suggest a <span class="ast-bold">cause</span> for
+      a given deviation, the team’s experience is used to estimate the
+      <span class="ast-bold">consequences</span> taking existing
+      <span class="ast-bold">safeguards</span>
+      into account.
+    </p>
+    <p>
+      Where the risk is considered non-trivial or where an aspect requires
+      further investigation, a formal <span class="ast-bold">record</span> is
+      generated to allow the problem to be followed up outside the meeting. The
+      team then moves on with the analysis.
+    </p>
+    <p>The validity of the analysis depends upon:</p>
+
+    <!--List Bullet Start-->
+    <div class="ast-list">
+      <ul class="ast-list__bullet">
+        <li class="ast-list__bullet__item">the right team members;</li>
+        <li class="ast-list__bullet__item">
+          the accuracy of the information used; and
+        </li>
+        <li class="ast-list__bullet__item">the quality of the design.</li>
+      </ul>
+    </div>
+    <!--List Bullet End-->
+
+    <p>
+      For a HAZOP study to be effective the design must be firm and the Piping
+      and Instrumentation Diagrams (P&ID’s) must be frozen. This requires
+      management commitment and forward planning.
+    </p>
+
+    <img
+      src="https://mylearning.astutis.com/pluginfile.php/255/mod_book/chapter/150/cgdi0822_HAZOP_process%20V2.jpg"
+      alt=""
+      class="ast-img"
+    />
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>Generating a deviation</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      A meaningful deviation is generated by coupling a
+      <span class="ast-bold">Guideword</span> and a
+      <span class="ast-bold">parameter</span>. A deviation can be generated by
+      taking a parameter and combining it with each guideword in turn to see if
+      a meaningful deviation results or the alternative approach is to take a
+      guideword and try each parameter in turn.
+    </p>
+
+    <!--Table Desktop Start-->
+    <div class="ast-table ast-table--desktop">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__heading">
+            <th class="ast-table__ctn__wrp__row">Standard Guidewords</th>
+            <th class="ast-table__ctn__wrp__row">Meaning</th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">No (not, none)</td>
+            <td class="ast-table__ctn__wrp__row">
+              None of the design intent is achieved
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              More (more of, higher)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Quantitative increase in a parameter
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              Less (less of, lower)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Quantitative decrease in a parameter
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              As well as (more than)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              An additional activity occurs
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">Part of</td>
+            <td class="ast-table__ctn__wrp__row">
+              Only some of the design intention is achieved
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">Reverse</td>
+            <td class="ast-table__ctn__wrp__row">
+              Logical opposite of the design intention occurs
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              Other than (other)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Complete substitution. Another activity takes place
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+
+    <!--Table Desktop Start-->
+    <div class="ast-table ast-table--mobile">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">No (not, none)</td>
+            <td class="ast-table__ctn__wrp__row">
+              None of the design intent is achieved
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              More (more of, higher)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Quantitative increase in a parameter
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              Less (less of, lower)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Quantitative decrease in a parameter
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              As well as (more than)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              An additional activity occurs
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">Part of</td>
+            <td class="ast-table__ctn__wrp__row">
+              Only some of the design intention is achieved
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row ast-bold">Reverse</td>
+            <td class="ast-table__ctn__wrp__row">
+              Logical opposite of the design intention occurs
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row ast-bold">
+              Other than (other)
+            </td>
+            <td class="ast-table__ctn__wrp__row">
+              Complete substitution. Another activity takes place
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+
+    <p>
+      In contrast to the list of guidewords, it is not possible to give a list
+      of parameters. These must be thought out by the team members for the
+      particular process being examined.
+    </p>
+    <p>Examples of parameters for process operations include:</p>
+
+    <!--Table Responsive Row Start-->
+    <div class="ast-table">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Flow
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Pressure
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Temperature
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Mixing
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Stirring
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Transfer
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Level
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Viscosity
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Reaction
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Composition
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Addition
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Time
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Separation
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Phase
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Speed
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Particle size
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Measure
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Control
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              pH
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Sequence
+            </td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Signal
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Start/stop
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Operate
+            </td>
+            <td class="ast-text-align--center ast-table__ctn__wrp__row">
+              Maintain
+            </td>
+            <td
+              class="ast-text-align--center ast-table__ctn__wrp__row ast-table__ctn__wrp__data__row-even"
+            >
+              Services
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Responsive Row End-->
+
+    <!--H3 Heading Start-->
+    <div class="ast-heading--h3">
+      <p>A simple example</p>
+    </div>
+    <!--H3 Heading End-->
+    <p>
+      No petrol is being delivered to the delivery nozzle of the pump shown in
+      the below figure.
+    </p>
+
+    <img
+      src="https://mylearning.astutis.com/pluginfile.php/255/mod_book/chapter/150/cgdi0823_Petrol_Pump-web.jpg"
+      alt=""
+      class="ast-img"
+    />
+
+    <p>
+      The fact that no fuel is deliverable from the pump is a clear deviation
+      from design intent. This deviation is defined by coupling a property
+      (flow) with the standard guideword (No), so ‘No Flow’.
+    </p>
+
+    <!--Table Desktop Start-->
+    <div style="overflow: scroll" class="ast-table">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__heading">
+            <th colspan="2" class="ast-table__ctn__wrp__row--v">Deviation</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">Cause</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">Consequence</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">
+              Safeguards (Existing controls)
+            </th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">
+              Action (Additional controls)
+            </th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__heading">
+            <th class="ast-table__ctn__wrp__row--v">Guideword</th>
+            <th class="ast-table__ctn__wrp__row--v">Parameter</th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v">No</td>
+            <td class="ast-table__ctn__wrp__row--v">Flow</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"><p></p></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+
+    <p>
+      A HAZOP table is then used to investigate the causes of the deviation. The
+      HAZOP team would work systematically through the system to identify
+      potential causes.
+    </p>
+    <p>
+      So, working back from the nozzle possible causes of the deviation would be
+      captured in the table as follows:
+    </p>
+
+    <!--Table Desktop Start-->
+    <div style="overflow: scroll" class="ast-table">
+      <table class="ast-table__ctn">
+        <tbody class="ast-table__ctn__wrp">
+          <tr class="ast-table__ctn__wrp__heading">
+            <th colspan="2" class="ast-table__ctn__wrp__row--v">Deviation</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">Cause</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">Consequence</th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">
+              Safeguards (Existing controls)
+            </th>
+            <th rowspan="2" class="ast-table__ctn__wrp__row--v">
+              Action (Additional controls)
+            </th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__heading">
+            <th class="ast-table__ctn__wrp__row--v">Guideword</th>
+            <th class="ast-table__ctn__wrp__row--v">Parameter</th>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v">No</td>
+            <td class="ast-table__ctn__wrp__row--v">Flow</td>
+            <td class="ast-table__ctn__wrp__row--v">Blocked nozzle</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v">Blocked hose</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v">Defective pump</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v">Clogged filter</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-odd">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v">Closed isolation valve</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+          <tr class="ast-table__ctn__wrp__data__row-even">
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v">Empty tank</td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+            <td class="ast-table__ctn__wrp__row--v"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Table Desktop End-->
+
+    <p>
+      The potential seriousness of the consequences, as is, with existing
+      safeguards in place, would then determine what action was necessary to
+      address the cause and prevent similar future occurrences.
+    </p>
+
+    <!--Explore More Start-->
+    <div class="ast-card">
+      <div class="ast-card__img-wrp ast-explore">
+        <img
+          src="https://mylearning.astutis.com/pluginfile.php/294/mod_book/chapter/306/Explore%20more-icon%20new.png
+          "
+          width="120"
+        />
+      </div>
+      <div class="ast-card__ctnt-wrp ast-explore">
+        <h4 class="ast-card__ctnt-wrp__header">Explore more</h4>
+        <div class="ast-card__ctnt-wrp__ctnt">
+          <p>Watch the below video and answer the following questions:</p>
+          <br />
+          <ol class="ast-list__numbered--plain">
+            <li>What is a HAZOP?</li>
+            <li>Who would complete a HAZOP?</li>
+            <li>What are the six steps of a HAZOP?</li>
+          </ol>
+          <div class="ast-embed">
+            <iframe
+              class="ast-embed__iframe"
+              src="https://www.youtube.com/embed/6AqtX8oCpKI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Explore More End-->
+
+    <!-- Astutis code start -->
+  </body>
+</html>

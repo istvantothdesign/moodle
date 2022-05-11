@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.userpicture {
+  border-radius: 100%;
+}
+
+#page-my-index header {
+  height: 0;
+}
+
+div#learningcontent {
+  background: transparent !important;
+}
+
+#page-login-index {
+  background: url("https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649257951/backgroiund.png");
+}
+
+#page-login-index .card-header.text-center {
+  background: transparent;
+  border: none;
+}
+
+#page-login-index footer {
+  display: none;
+}
+
+#page-login-index #region-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.breadcrumb .breadcrumb-item {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn.btn-secondary,
+.btn.btn-primary {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background: #3127a4 !important;
+  -webkit-transition: all 0.25s ease-in-out !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-primary:hover {
+  background: #4539d0 !important;
+  color: white !important;
+}
+
+.btn.btn-secondary:focus,
+.btn.btn-primary:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: 0;
+}
+
+.btn.btn-secondary:active,
+.btn.btn-primary:active {
+  color: white !important;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.card,
+.card-body {
+  border: none;
+}
+
+.ast-embed-wrp {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ast-embed-wrp.ast-featured {
+  padding: 40px 0;
+}
+
+.ast-embed {
+  overflow: hidden;
+  margin-top: 40px;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.ast-embed--featured {
+  margin-bottom: 20px;
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+.ast-embed__iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.block_user_favorites {
+  padding: 0px !important;
+}
+
+.block_user_favorites .card-title {
+  visibility: hidden;
+  position: relative;
+}
+
+.block_user_favorites .card-title::after {
+  visibility: visible;
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  content: "Favourite pages";
+}
+
+.block_user_favorites #block_user_favorites-items {
+  padding: 0 !important;
+}
+
+.block_user_favorites #block_user_favorites-items li {
+  padding: 0 0 10px 0 !important;
+  border-radius: 0 !important;
+}
+
+.block_enrol_duration br {
+  margin-bottom: 10px !important;
+}
+
+.navbar {
+  padding: 2rem 1rem;
+}
+
+.navbar .navbar-brand .d-none {
+  display: inline !important;
+}
+
+.navbar .navbar-brand .site-name.d-none {
+  display: none !important;
+}
+
+.navbar .navbar-brand .logo img {
+  content: url(https://astutis.github.io/moodle/Theme%20V2/Assets/Images/astutis-logo.svg);
+  width: 138px;
+}
+
+.navbar #action-menu-toggle-1 {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /*! align-content: ; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .userbutton {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .avatars {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.navbar .usertext {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.ast-welcome-message {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.ast-welcome-message__name {
+  color: #9243ff;
+}
+
+.ast-welcome-message__p {
+  font-size: 1.25rem;
+}
+
+#instance-10-header {
+  display: none !important;
+}
+
+#page-my-index .block {
+  background: transparent !important;
+}
+
+#page-my-index #page-header .card {
+  background: transparent;
+}
+
+#page-my-index [data-region="filter"] {
+  display: none !important;
+}
+
+#page-my-index #page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-my-index #page-content #region-main-box {
+  max-width: 1440px;
+}
+
+#page-my-index #page-content #region-main-box #region-main {
+  background: transparent !important;
+}
+
+#page-my-index .block_myoverview .card-body h5 {
+  display: none !important;
+}
+
+.dashboard-card-deck .dashboard-card {
+  background: linear-gradient(181.64deg, #a9a4d9 0%, #3127a4 100%);
+  color: white;
+}
+
+.dashboard-card-deck .dashboard-card:nth-of-type(2) {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb99a), to(#ff6f30));
+  background: linear-gradient(180deg, #ffb99a 0%, #ff6f30 100%);
+}
+
+.dashboard-card-deck .dashboard-card:nth-of-type(3) {
+  background: linear-gradient(181.64deg, #e1bdfe 0%, #a243ff 100%);
+}
+
+.dashboard-card-deck .dashboard-card .dashboard-card-img {
+  height: 15rem;
+}
+
+.dashboard-card-deck .dashboard-card .categoryname {
+  display: none;
+}
+
+.dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer {
+  background: transparent !important;
+}
+
+.dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer .progress {
+  background: white !important;
+  margin-bottom: 10px;
+}
+
+.dashboard-card-deck .dashboard-card .card-footer.dashboard-card-footer .progress .progress-bar.bar {
+  background: #40b0b6;
+}
+
+.block_myoverview .dashboard-card {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: -3px 7px 5px 1px #0000002e;
+          box-shadow: -3px 7px 5px 1px #0000002e;
+}
+
+.block_myoverview .dashboard-card:hover {
+  -webkit-box-shadow: -3px 7px 5px 1px #00000091;
+          box-shadow: -3px 7px 5px 1px #00000091;
+}
+
+.block_myoverview .coursename {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.block_myoverview .card-footer {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.block_myoverview .small {
+  font-size: 14px;
+}
+
+.btn.btn-link.btn-icon:hover {
+  background-color: #3127a4 !important;
+}
+
+#page-course-view-topics #learningcontent {
+  background: transparent !important;
+  height: 100%;
+}
+
+#page-course-view-topics #page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-course-view-topics #page-header div {
+  max-width: 1440px !important;
+}
+
+#page-course-view-topics #page-header .page-header-headings h1 {
+  font-weight: 600;
+}
+
+#page-course-view-topics #page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-course-view-topics #page-content #region-main-box {
+  max-width: 1440px !important;
+}
+
+#page-course-view-topics #page-content #region-main-box #region-main {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+#page-course-view-topics #page-content .course-content .sectionname {
+  font-weight: 500;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary {
+  border: none;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext a {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .summarytext div {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .progress {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(1) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(2) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(3) {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities .activity-count:nth-child(4) {
+  margin-right: 20px;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-summary-activities br {
+  display: none;
+}
+
+#page-course-view-topics #page-content .course-content .section-summary .content .section-title.sectionname {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#page-course-view-topics #page-content .course-content .single-section {
+  background: transparent !important;
+  padding: 0px !important;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.headerbkg .withimage {
+  background-image: url(https://mylearningdev2.astutis.com/pluginfile.php/1/theme_fordson/headerdefaultimage/1649946120/Astutis%20background.jpg) !important;
+}
+
+.editing #region-main-box {
+  background: white !important;
+  padding: 20px !important;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.single-section h3.sectionname {
+  text-align: left;
+}
+
+.activity-information {
+  display: none;
+}
+
+.path-mod-book .book_toc li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#page-mod-book-view #page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-mod-book-view #page-header div {
+  max-width: 1440px !important;
+}
+
+#page-mod-book-view #page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-mod-book-view #page-content #region-main-box {
+  max-width: 1440px !important;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+div.section-navigation:nth-child(1) > span:nth-child(2) {
+  display: none;
+}
+
+/* Element | https://mylearningdev2.astutis.com/course/view.php?id=2&section=1 */
+div.section-navigation:nth-child(3) > span:nth-child(2) {
+  display: none;
+}
+
+div.section-navigation:nth-child(1) > span:nth-child(1) {
+  display: none;
+}
+
+div.section-navigation:nth-child(3) > span:nth-child(1) {
+  display: none;
+}
+
+.ast-course-progress-info__percentage {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.ast-course-progress-info__wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ast-course-progress-info__wrp p {
+  margin: 0 0 20px 0;
+}
+
+.block_enrol_duration {
+  margin-top: 15px;
+}
+
+/* all | https://mylearningdev2.astutis.com/theme/styles.php/fordson/1650358149_1/all */
+.course-content .single-section .section-navigation {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.unlist,
+.unlist li,
+.inline-list,
+.inline-list li,
+.block .list,
+.block .list li,
+.section li.activity,
+.section li.movehere,
+.tabtree li {
+  background: white;
+  padding: 20px !important;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#page-my-index .block_user_favorites {
+  padding: 0px !important;
+}
+
+#page-my-index .block_user_favorites .card-title {
+  visibility: hidden;
+  position: relative;
+}
+
+#page-my-index .block_user_favorites .card-title::after {
+  visibility: visible;
+  position: absolute;
+  display: inline-block;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  content: "Favourite pages";
+}
+
+#page-my-index .block_user_favorites #block_user_favorites-items {
+  padding: 0 !important;
+  background: none !important;
+}
+
+#page-my-index .block_user_favorites #block_user_favorites-items li {
+  background: none !important;
+  padding: 0 0 10px 0 !important;
+  border-radius: 0 !important;
+}
+
+@media (min-width: 576px) {
+  .course-content ul.section {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* style.css | https://astutis.github.io/moodle/Theme%20V2/CSS/style.css */
+#page-course-view-topics #page-content .course-content .single-section {
+  overflow: hidden;
+}
+
+#page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-footer a {
+  color: #3127a4 !important;
+}
+
+#page-footer .container {
+  max-width: 1440px;
+}
+
+#page-footer .brandbox {
+  text-align: right;
+}
+
+#page-footer .brandbox .footercontact {
+  padding-left: 0;
+}
+
+#region-main.has-blocks
+.dashboard-card-deck:not(.fixed-width-cards)
+.dashboard-card {
+  width: calc(33.33% - 30px);
+}
+/*# sourceMappingURL=style.css.map */

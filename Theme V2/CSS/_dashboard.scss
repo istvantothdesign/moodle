@@ -1,0 +1,107 @@
+// Welcome message
+.ast-welcome-message {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.ast-welcome-message__name {
+  color: #9243ff;
+}
+.ast-welcome-message__p {
+  font-size: 1.25rem;
+}
+
+// Course overview
+#instance-10-header {
+  display: none !important;
+}
+#page-my-index {
+  .block {
+    background: transparent !important;
+  }
+  #page-header {
+    .card {
+      background: transparent;
+    }
+  }
+  [data-region="filter"] {
+    display: none !important;
+  }
+  #page-content {
+    display: flex;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1440px;
+      #region-main {
+        background: transparent !important;
+      }
+    }
+  }
+}
+
+#page-my-index .block_myoverview .card-body h5 {
+  display: none !important;
+}
+
+.dashboard-card-deck {
+  .dashboard-card {
+    background: linear-gradient(181.64deg, #a9a4d9 0%, #3127a4 100%);
+    color: white;
+    &:nth-of-type(2) {
+      background: linear-gradient(180deg, #ffb99a 0%, #ff6f30 100%);
+    }
+    &:nth-of-type(3) {
+      background: linear-gradient(181.64deg, #e1bdfe 0%, #a243ff 100%);
+    }
+    .dashboard-card-img {
+      height: 15rem;
+    }
+    .categoryname {
+      display: none;
+    }
+    .card-footer.dashboard-card-footer {
+      background: transparent !important;
+      .progress {
+        background: white !important;
+        margin-bottom: 10px;
+        .progress-bar.bar {
+          background: #40b0b6;
+        }
+      }
+    }
+  }
+}
+
+// #course-info-container-2-2 {
+// }
+
+.block_myoverview {
+  .dashboard-card {
+    transition: all 1s ease;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -3px 7px 5px 1px #0000002e;
+    &:hover {
+      box-shadow: -3px 7px 5px 1px #00000091;
+    }
+  }
+}
+
+.block_myoverview .coursename {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.block_myoverview .card-footer {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.block_myoverview .small {
+  font-size: 14px;
+}
+
+// Elipsis icon on hover (Course cards)
+.btn.btn-link.btn-icon:hover {
+  background-color: #3127a4 !important;
+}
