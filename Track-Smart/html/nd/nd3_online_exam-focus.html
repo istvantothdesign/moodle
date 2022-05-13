@@ -66,103 +66,113 @@
   </head>
 
   <body>
+    <!-- Exam date tracker nav start -->
     <nav class="navbar navbar-expand-sm navbar-dark brand1">
-      <a class="navbar-brand" href="./html/nd_online_intro.html"
-        ><img
-          src="./img/SVG/astutis-track-smart-tick-v3.sv"
-          height="30"
-          class="rounded tick-symbol"
-          alt="TrackSmart&trade;"
-          onerror="this.src='./img/astutis-track-smart-tick-v3.jpg'"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./html/nd_online_intro.html"
-              ><i class="fa fa-home"></i
-            ></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="examdatedrop"
-              data-toggle="dropdown"
-              >Exam date tracker <span class="sr-only">(current)</span></a
+      <div class="navbar__ctn">
+        <div class="navbar__wrp">
+          <a class="navbar-brand" href="./html/nd_online_intro.html"
+            ><img
+              src="./img/astutis-track-smart-tick-white-v3.svg"
+              height="30"
+              class="rounded tick-symbol"
+              alt="TrackSmart&trade;"
+              onerror="this.src='./img/astutis-track-smart-tick-white-v3.png'"
+          /></a>
+          <div class="collapse-nav-wrp">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-            <div class="dropdown-menu">
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd1_online_exam-focus.html"
-                >ND1</a
-              >
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd2_online_exam-focus.html"
-                >ND2</a
-              >
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd3_online_exam-focus.html"
-                >ND3</a
-              >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./html/nd_online_intro.html"
+                    ><i class="fa fa-home"></i
+                  ></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="examdatedrop"
+                    data-toggle="dropdown"
+                    >Exam date tracker <span class="sr-only">(current)</span></a
+                  >
+                  <div class="dropdown-menu">
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd1_online_exam-focus.html"
+                      >ND1</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd2_online_exam-focus.html"
+                      >ND2</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd3_online_exam-focus.html"
+                      >ND3</a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="timedrop"
+                    data-toggle="dropdown"
+                    >Time tracker</a
+                  >
+                  <div class="dropdown-menu">
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd1_online_time-focus.html"
+                      >ND1</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd2_online_time-focus.html"
+                      >ND2</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="./html/nd/nd3_online_time-focus.html"
+                      >ND3</a
+                    >
+                  </div>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="timedrop"
-              data-toggle="dropdown"
-              >Time tracker</a
-            >
-            <div class="dropdown-menu">
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd1_online_time-focus.html"
-                >ND1</a
-              >
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd2_online_time-focus.html"
-                >ND2</a
-              >
-              <a
-                class="dropdown-item"
-                href="./html/nd/nd3_online_time-focus.html"
-                >ND3</a
-              >
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </nav>
+    <!-- Exam date tracker nav end -->
     <div class="container">
+      <!-- Page exam title start -->
       <div
-        class="jumbotron text-white mt-2 brandImage1"
+        class="jumbotron text-white mt-2 brandImage1 pageTitle"
         style="background-color: #3127a4"
       >
-        <img
-          src="./img/SVG/ExamDateNoBG.svg"
-          class="rounded float-left mr-3"
-          style="width: 150px"
-        />
-        <h1 class="display-4">Exam date tracker</h1>
-        <p class="lead">
-          Calculate your study time based on your chosen exam date.
-        </p>
+        <div class="pageTitle__img">
+          <img src="./img/SVG/ExamDateNoBG.svg" class="" style="width: 150px" />
+        </div>
+        <div>
+          <h1 class="display-4">Exam date tracker</h1>
+          <p class="lead">
+            Calculate your study time based on your chosen exam date.
+          </p>
+        </div>
       </div>
+      <!-- Page exam title end -->
       <p>
         NEBOSH has a recommended number of study hours you should complete
         before sitting your ND3 exam. Use our exam tracker to work out how much
