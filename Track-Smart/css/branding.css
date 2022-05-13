@@ -13,11 +13,15 @@
 }
 
 .brandImage1 {
-  background-image: url("../img/BrandingImage1.jpg");
+  /* background-image: url("../img/BrandingImage1.jpg"); */
+  background-image: url("../img/rebrand-bg-blue.png");
 }
 
 .brandImage2 {
-  background-image: url("../img/BrandingImage2.jpg");
+  /* background-image: url("../img/BrandingImage2.jpg"); */
+  background-image: url("../img/rebrand-bg-dark-blue.png");
+  background-position: center;
+  background-size: cover;
 }
 
 .fc-dayGridMonth-button,
@@ -52,6 +56,54 @@
 }
 
 .tick-symbol {
-  background: white;
+  background: transparent;
   padding: 3px;
+}
+
+.pageTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pageTitle__img {
+  margin: 0 20px 20px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #0c0b28;
+}
+
+.navbar__ctn {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.navbar__wrp {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.collapse-nav-wrp {
+  text-align: right;
+  width: 100%;
+}
+
+.navbar-collapse {
+  width: 100%;
+  text-align: center;
+  padding-right: 40px;
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+  .pageTitle {
+    text-align: center;
+  }
 }
