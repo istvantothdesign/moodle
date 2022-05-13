@@ -55,6 +55,11 @@
   margin-bottom: 40px;
 }
 
+.logo-ctn img {
+  min-width: 150px;
+  max-width: 200px;
+}
+
 .tick-symbol {
   background: transparent;
   padding: 3px;
@@ -99,6 +104,30 @@
   width: 100%;
   text-align: center;
   padding-right: 40px;
+}
+
+.cardsCtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-width: 320px;
+}
+
+.introCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.introCard h1 {
+  font-size: 3rem;
+}
+
+.introCard img {
+  margin: 0 0 20px 0 !important;
 }
 
 /* Media queries */
