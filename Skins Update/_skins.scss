@@ -1,0 +1,92 @@
+/*CUSTOM SKINS*/
+.ast-skin {
+  display: none;
+}
+.change-astutis {
+  background-color: rgb(58, 48, 168) !important;
+}
+.change-meta {
+  background-color: rgb(51, 133, 255) !important;
+}
+.change-twitter {
+  background-color: rgb(0, 217, 255) !important;
+}
+.change-rospa {
+  background-color: rgb(171, 1, 97) !important;
+}
+
+/*Small CIRCLES SOLUTION*/
+:root {
+  --ast-small-circle-1: unset;
+  --ast-small-circle-2: unset;
+  --ast-small-circle-3: unset;
+}
+/*Circle 1*/
+.learningitem-wrap:nth-of-type(1n) .detail-inner {
+  background: var(--ast-small-circle-1);
+}
+
+.learningitem-wrap:nth-of-type(1n) .detail-inner .detail-image:before {
+  background: var(--ast-small-circle-1) !important;
+}
+
+/*Circle 2*/
+.learningitem-wrap:nth-of-type(2n) .detail-inner {
+  background: var(--ast-small-circle-2);
+}
+
+.learningitem-wrap:nth-of-type(2n) .detail-inner .detail-image:before {
+  background: var(--ast-small-circle-2) !important;
+}
+
+/*Circle 3*/
+.learningitem-wrap:nth-of-type(3n) .detail-inner {
+  background: var(--ast-small-circle-3);
+}
+
+.learningitem-wrap:nth-of-type(3n) .detail-inner .detail-image:before {
+  background: var(--ast-small-circle-3) !important;
+}
+
+/*WELCOME TEXT*/
+body:not(.ie) .ast-welcome-txt--astutis {
+  background: #0054f7;
+  background: linear-gradient(
+    286deg,
+    #ff6f30 0%,
+    #3e3eff 54%,
+    #a243ff 78%,
+    #3127a4 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body:not(.ie) .ast-welcome-txt--rospa {
+  background: #0054f7;
+  background: linear-gradient(286deg, #d0006f 0%, #b80062 50%, #ff0a8d 100%);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body:not(.ie) .ast-welcome-txt--meta {
+  background: #0054f7;
+  background: linear-gradient(286deg, #0054f7 0%, #1f69ff 50%, #0044cc 100%);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body:not(.ie) .ast-welcome-txt--twitter {
+  background: #0054f7;
+  background: linear-gradient(286deg, #1da1f2 0%, #51b6f5 50%, #0d94e7 100%);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
