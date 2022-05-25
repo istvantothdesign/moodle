@@ -1,5 +1,5 @@
 // Course pages
-#page-course-view-topics, #page-mod-assign-view {
+#page-course-view-topics {
   #learningcontent {
     background: transparent !important;
     height: 100%;
@@ -82,6 +82,39 @@
         padding: 0px !important;
         border: none !important;
         border-radius: 5px;
+      }
+    }
+  }
+}
+
+// Assignment activity
+#page-mod-assign-view {
+  #learningcontent {
+    background: transparent !important;
+    height: 100%;
+  }
+  #page-header {
+    display: flex;
+    justify-content: center;
+    div {
+      max-width: 1440px !important;
+    }
+    .page-header-headings {
+      h1 {
+        font-weight: 600;
+      }
+    }
+  }
+  #page-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    #region-main-box {
+      max-width: 1440px !important;
+      #region-main {
+        background: white !important;
+        padding: 1rem !important;
+        border: none !important;
       }
     }
   }
