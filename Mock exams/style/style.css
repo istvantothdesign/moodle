@@ -21,7 +21,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../ast-mock-bg.png);
+  background: url(https://astutis.github.io/moodle/Mock%20exams/ast-mock-bg.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
