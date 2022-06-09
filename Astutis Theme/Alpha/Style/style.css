@@ -383,6 +383,10 @@ body:not(.ie) .ast-welcome-txt--twitter {
   display: none;
 }
 
+[data-key="myhome"] {
+  display: none;
+}
+
 .ast-bold {
   font-weight: bold;
 }
