@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to GitHub CSS -->
+    <link
+      rel="stylesheet"
+      href="https://istvantothdesign.github.io/moodle/Astutis%20Theme/Alpha/Style/style.css"
+    />
+
+    <title>Additional HTML</title>
+  </head>
+  <body>
+    <!-- Body open -->
+    <!--Loading animation-->
+    <div class="transition transition-3 is-active">
+      <div class="drawing" id="loading">
+        <div class="loading-dot"></div>
+      </div>
+    </div>
+
+    <!-- Body closed -->
+    <!--Skins-->
+    <script src="https://istvantothdesign.github.io/moodle/JS/skins.js"></script>
+    <script>
+      //Envoke functions here
+      if (
+        window.location.href.indexOf(
+          "https://mylearningdev4.astutis.com/my/"
+        ) != -1
+      ) {
+        // do stuff for reserve.php page here
+        function changeWelcomeTxt(company) {
+          const astWelcomeTxt = document.querySelector(
+            ".display-4.font-weight-semibold"
+          );
+          console.log("Switch start");
+          switch (company) {
+            case "astutis":
+              astWelcomeTxt.firstElementChild.classList.remove(
+                "primarygradient"
+              );
+              astWelcomeTxt.firstElementChild.classList.add(
+                "ast-welcome-txt--astutis"
+              );
+              break;
+            case "rospa":
+              astWelcomeTxt.firstElementChild.classList.remove(
+                "primarygradient"
+              );
+              astWelcomeTxt.firstElementChild.classList.add(
+                "ast-welcome-txt--rospa"
+              );
+              break;
+            case "meta":
+              astWelcomeTxt.firstElementChild.classList.remove(
+                "primarygradient"
+              );
+              astWelcomeTxt.firstElementChild.classList.add(
+                "ast-welcome-txt--meta"
+              );
+              break;
+            case "twitter":
+              astWelcomeTxt.firstElementChild.classList.remove(
+                "primarygradient"
+              );
+              astWelcomeTxt.firstElementChild.classList.add(
+                "ast-welcome-txt--twitter"
+              );
+              break;
+          }
+          console.log("Switc ends");
+        }
+        changeWelcomeTxt(skinLower);
+      }
+
+      changeCards();
+      loaderColor();
+    </script>
+
+    <!--Page loading animation-->
+    <script src="https://astutis.github.io/moodle/JS/transitionv2.js"></script>
+  </body>
+</html>
