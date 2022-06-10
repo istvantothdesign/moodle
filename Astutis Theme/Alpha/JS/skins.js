@@ -139,13 +139,13 @@ function changeCards() {
         "https://istvantothdesign.github.io/astutis/rospa-logo.png";
 
       break;
-    case "meta":
+    case "amazon":
       courseCardMeta();
       for (i = 0; i < sectionImgColor.length; ++i) {
         sectionImgColor[i].classList.add("change-meta");
       }
       navLogo.children[0].src =
-        "https://istvantothdesign.github.io/astutis/meta-logo.png";
+        "https://astutis.github.io/moodle/Astutis%20Theme/Images/Client%20logos/amazon%20logo.png";
 
       break;
     case "twitter":
