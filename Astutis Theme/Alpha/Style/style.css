@@ -379,14 +379,6 @@ body:not(.ie) .ast-welcome-txt--twitter {
   -webkit-text-fill-color: transparent;
 }
 
-[data-key="home"] {
-  display: none;
-}
-
-[data-key="myhome"] {
-  display: none;
-}
-
 .ast-bold {
   font-weight: bold;
 }
