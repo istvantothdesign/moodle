@@ -14,3 +14,22 @@ submitBtn.addEventListener("click", function (event) {
     form.submit();
   }
 });
+
+const test = document.querySelector(".section-summary");
+console.log(test);
+
+// This handler will be executed every time the cursor
+// is moved over a different list item
+test.addEventListener(
+  "mouseover",
+  function (event) {
+    // highlight the mouseover target
+    event.target.style.background = "orange";
+
+    // reset the color after a short delay
+    setTimeout(function () {
+      event.target.style.background = "green";
+    }, 500);
+  },
+  false
+);
