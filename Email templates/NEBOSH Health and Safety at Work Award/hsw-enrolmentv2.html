@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NG Course Enrolment</title>
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style> -->
+  </head>
+  <body>
+    <table
+      role="presentation"
+      style="
+        border-collapse: collapse;
+        /* background-color: white; */
+        /* background-color: #3127a4; */
+        background-image: url(https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/backgroiund.png);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+      "
+    >
+      <tbody>
+        <!-- Logo -->
+        <tr style="text-align: center">
+          <td></td>
+          <td width="490" style="padding: 40px">
+            <a href="https://www.astutis.com/" target="_blank">
+              <img
+                width="200"
+                height="auto"
+                style="width: 200px; height: auto"
+                src="https://astutis.github.io/moodle/Courses/Nebosh%20Diploma/Images/Astutis%20-%20Colour%20logo_web%20(1).png"
+                alt=""
+              />
+            </a>
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- Greeting -->
+        <tr style="text-align: center; color: black">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: left;
+              padding-bottom: 40px;
+              padding-left: 10px;
+              padding-right: 10px;
+            "
+          >
+            <h1>
+              <span style="background: orange">&nbsp;</span>
+              Hello {{FirstName}}
+            </h1>
+            <p>
+              Welcome to your
+              <strong>Astutis NEBOSH Health and Safety at Work Award</strong>
+              online learning course. You will already have received an email
+              with your login details to the Astutis online learning website but
+              this email is intended to highlight a few important things about
+              your course.
+            </p>
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- Info -->
+        <tr style="text-align: center; background-color: transparent">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: left;
+              padding: 0 0;
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-bottom: 40px;
+            "
+          >
+            <h1>
+              <span style="background: orange">&nbsp;</span>
+              Starting your course
+            </h1>
+            <p>
+              Start the course by working your way through the
+              <strong>Overview section,</strong> this details how the course
+              works, how you can find your way around and where to go for help.
+              It also includes important details about the assessment.
+            </p>
+            <p>
+              You have <strong>6 months</strong> from today to complete the
+              course, including the assessment. If you do not complete the
+              course in this time and require an extension, you will need to
+              contact us for guidance.
+            </p>
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- Exam booking -->
+        <tr style="text-align: center; background-color: transparent">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: left;
+              padding: 0 0;
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-bottom: 40px;
+            "
+          >
+            <h1>
+              <span style="background: orange">&nbsp;</span>
+              Booking your exams
+            </h1>
+            <p>
+              You will need to book your exam submission date
+              <strong>before the booking deadline</strong> for that date. Visit
+              our
+              <a
+                href="https://www.astutis.com/help-centre/exam-hub/nebosh-health-and-safety-at-work"
+                >exam hub
+              </a>
+              for details of submission dates, booking deadlines and to complete
+              the exam booking form.
+            </p>
+            <p>
+              Once you have completed the assessment it will be sent to NEBOSH
+              to be verified. It is
+              <strong>not until we have received verification</strong> of your
+              marks from NEBOSH that we can confirm whether you have passed, or
+              not.
+            </p>
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- Support -->
+        <tr style="text-align: center; color: black">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: left;
+
+              padding-left: 10px;
+              padding-right: 10px;
+              padding-bottom: 40px;
+            "
+          >
+            <h1>
+              <span style="background: orange">&nbsp;</span>
+              Need Any Help?
+            </h1>
+            <p>
+              If you have any questions or concerns regarding your course, or
+              <b
+                >if any of your personal or contact details change, please email
+                us at {{CompanyEmail}}.</b
+              >
+            </p>
+            <p>Good luck with your course!</p>
+            <p>
+              <strong> Natalie Robinson </strong> <br />
+              Online Learning Support
+            </p>
+          </td>
+          <td></td>
+        </tr>
+
+        <!-- Social links -->
+        <tr style="text-align: center; color: white">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: center;
+              padding-top: 20px;
+              background-color: #3127a4;
+            "
+          >
+            <table cellpadding="5">
+              <tbody>
+                <tr style="text-align: center">
+                  <td></td>
+                  <td
+                    width="490"
+                    height="60"
+                    style="text-align: center; vertical-align: middle"
+                  >
+                    <a
+                      href="mailto: learningadvisor@astutis.com"
+                      style="color: white"
+                    >
+                      <img
+                        width="30"
+                        height="30"
+                        src="https://drive.google.com/uc?export=view&id=1zuTv3lcIBeULreWilS6mG1imu7PdlqI8"
+                        alt=""
+                        style="width: 30; height: auto; display: inline-block"
+                      />
+                      <p style="color: white">{{CompanyEmail}}</p></a
+                    >
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+        <tr style="text-align: center; color: white">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: center;
+              background-color: #3127a4;
+            "
+          >
+            <table cellpadding="5">
+              <tbody>
+                <tr style="text-align: center">
+                  <td></td>
+                  <td
+                    width="490"
+                    height="60"
+                    style="text-align: center; vertical-align: middle"
+                  >
+                    <a href="tel:01443849431 " style="color: white">
+                      <img
+                        width="30"
+                        height="30"
+                        src="https://drive.google.com/uc?export=view&id=1_ZniIpcJgzM4hDQaipF3-jHpu2escJdE"
+                        alt=""
+                        style="width: 30; height: auto; display: inline-block"
+                      />
+                      <p style="color: white">{{CompanyPhone}}</p></a
+                    >
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+        <tr style="text-align: center; color: white">
+          <td></td>
+          <td
+            width="490"
+            style="
+              display: inline-block;
+              text-align: center;
+              background-color: #3127a4;
+            "
+          >
+            <table cellpadding="15">
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td width="490">
+                    <table cellpadding="20">
+                      <tbody>
+                        <tr>
+                          <td height="60" style="vertical-align: middle">
+                            <a
+                              href="https://www.facebook.com/AstutisLtd"
+                              target="_blank"
+                            >
+                              <img
+                                width="50"
+                                heigth="50"
+                                src="https://drive.google.com/uc?export=view&id=1b6ntAwZVXKm2-AGCSn_YQoN09zG7ipDn"
+                                alt=""
+                                style="width: 50px; height: auto"
+                              />
+                            </a>
+                          </td>
+                          <td height="60" style="vertical-align: middle">
+                            <a
+                              href="https://www.linkedin.com/company/astutis-ltd"
+                              target="_blank"
+                            >
+                              <img
+                                width="50"
+                                heigth="50"
+                                src="https://drive.google.com/uc?export=view&id=1Y4H8T5DrkPGLMdlGiH4Asc60vvCsgQ3e"
+                                alt=""
+                                style="width: 50px; height: auto"
+                              />
+                            </a>
+                          </td>
+                          <td height="60" style="vertical-align: middle">
+                            <a
+                              href="https://twitter.com/Astutis"
+                              target="_blank"
+                              ><img
+                                width="50"
+                                heigth="50"
+                                src="https://drive.google.com/uc?export=view&id=1pnKhV6iz7HkEKoIrWGMiY3QLybKfQ2pV"
+                                alt=""
+                                style="width: 50px; height: auto"
+                              />
+                            </a>
+                          </td>
+                          <td height="60" style="vertical-align: middle">
+                            <a
+                              href="https://www.youtube.com/channel/UC4-ZkGDYWzc-58m13lAGFDQ"
+                              target="_blank"
+                              ><img
+                                width="50"
+                                heigth="50"
+                                src="https://drive.google.com/uc?export=view&id=1L0Q5KfAWpzT95pHEi_7rqrRf4U9g8FXI"
+                                alt=""
+                                style="width: 50px; height: auto"
+                            /></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
