@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NG Course Enrolment</title>
-    <!-- <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-    </style> -->
-  </head>
-  <body>
-    <table
+<table
       role="presentation"
       style="
         border-collapse: collapse;
@@ -63,47 +48,12 @@
               Hello {{FirstName}}
             </h1>
             <p>
-              Welcome to your
-              <strong>Astutis NEBOSH Health and Safety at Work Award</strong>
-              online learning course. You will already have received an email
-              with your login details to the Astutis online learning website but
-              this email is intended to highlight a few important things about
-              your course.
-            </p>
-          </td>
-          <td></td>
-        </tr>
-
-        <!-- Info -->
-        <tr style="text-align: center; background-color: transparent">
-          <td></td>
-          <td
-            width="490"
-            style="
-              display: inline-block;
-              text-align: left;
-              padding: 0 0;
-              padding-left: 10px;
-              padding-right: 10px;
-              padding-bottom: 40px;
-            "
-          >
-            <h1>
-              <span style="background: orange">&nbsp;</span>
-              Starting your course
-            </h1>
-            <p>
-              Start the course by working your way through the
-              <strong>Overview section,</strong> this details how the course
-              works, how you can find your way around and where to go for help.
-              It also includes important details about the assessment.
-            </p>
-            <p>
-              You have <strong>3 months</strong> from today to complete the
-              course, including the assessment. If you do not complete the
-              course in this time and require an extension, then don't worry, we
-              are here to help. You will need to contact us to discuss the
-              options.
+              This is an automatically generated reminder about the NEBOSH
+              Health and Safety at Work Award online learning course that you
+              enrolled on from {{StartDate}}. You have
+              <strong>3 months</strong> from the day you enrolled to complete
+              the course, including passing the assessment. You need to have
+              completed the course by {{ExpiryDate}}.
             </p>
           </td>
           <td></td>
@@ -128,22 +78,21 @@
               Booking your exams
             </h1>
             <p>
-              You will need to book your exam submission date
-              <strong>before the booking deadline</strong> for that date. Visit
-              our
+              If you have not already booked your exam date, you need to
+              complete the exam booking form
+              <strong>before the booking deadline</strong> for your chosen date.
+              Visit our
               <a
                 href="https://www.astutis.com/help-centre/exam-hub/nebosh-health-and-safety-at-work"
-                >exam hub
-              </a>
+                target="_blank"
+                >exam hub</a
+              >
               for details of submission dates, booking deadlines and to complete
               the exam booking form.
             </p>
             <p>
-              Once you have completed the assessment it will be sent to NEBOSH
-              to be verified. It is
-              <strong>not until we have received verification</strong> of your
-              marks from NEBOSH that we can confirm whether you have passed, or
-              not.
+              Remember if you need to <strong>extend your access</strong> to the
+              course you will need to contact us for guidance.
             </p>
           </td>
           <td></td>
@@ -346,5 +295,3 @@
         </tr>
       </tbody>
     </table>
-  </body>
-</html>
