@@ -1,10 +1,48 @@
-const astPageID = document.getElementById("page-course-view-topics");
+// Dashboard feature
+if (skin === "amazon") {
+  const dashFeature = document.querySelector(".ast-embed-wrp");
+  dashFeature.classList.add("d-none");
+}
 
+// Variables
+const astPageID2 = document.querySelector("body").id;
+const astRole = document.querySelector(".ast-role").innerHTML;
+const drawerRight = document.querySelector(
+  ".drawer-toggler.drawer-right-toggle"
+);
+
+// Functions
+// Removing right drawer from learners
+function removedrawer() {
+  if (astPageID2 != "page-mod-book-view") {
+    drawerRight.classList.add("d-none");
+  }
+
+  if (
+    astRole.includes("admin") === true ||
+    astRole.includes("clientadmin") === true
+  ) {
+    drawerRight.classList.remove("d-none");
+  }
+}
+
+// Custom login
+function customLogin() {
+  const logoImg = document.getElementById("logoimage");
+
+  if (window.location.href.includes("#rospa")) {
+    logoImg.classList.add("rospa-logo");
+  } else if (window.location.href.includes("#amazon")) {
+    logoImg.classList.add("amazon-logo");
+  }
+}
+
+// Activity/Topic hover
 function astActivityHover() {
-  if (astPageID.id === "page-course-view-topics") {
+  if (astPageID2 === "page-course-view-topics") {
     console.log("yes");
     const topics = document.querySelectorAll(".section-summary");
-    const activities = document.querySelectorAll(".activity.activity-wrapper");
+    //const activities = document.querySelectorAll(".activity.activity-wrapper");
     console.log(topics);
 
     for (let i = 0; i < topics.length; ++i) {
@@ -60,3 +98,8 @@ function astActivityHover() {
     }
   }
 }
+
+// Calling functions (add these to site admin->appearance->additional html-> before body)
+removedrawer();
+customLogin();
+astActivityHover();
