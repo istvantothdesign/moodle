@@ -5,6 +5,65 @@ const drawerRight = document.querySelector(
   ".drawer-toggler.drawer-right-toggle"
 );
 
+// Variables for skins
+const skin = document.querySelector(".ast-skin").innerHTML;
+const skinLower = skin.toString().toLowerCase();
+const navLogo = document.querySelector(".navbar-brand");
+const courseCard1 = document.querySelectorAll(
+  ".dashboard-card-deck .dashboard-card:nth-of-type(1n)"
+);
+const courseCard2 = document.querySelectorAll(
+  ".dashboard-card-deck .dashboard-card:nth-of-type(2n)"
+);
+const courseCard3 = document.querySelectorAll(
+  ".dashboard-card-deck .dashboard-card:nth-of-type(3n)"
+);
+
+console.log(courseCard2);
+
+// Change logo
+function changeLogoAstutis() {
+  navLogo.children[0].src =
+    "https://istvantothdesign.github.io/astutis/Astutis-logo.png";
+}
+function changeLogoRospa() {
+  navLogo.children[0].src =
+    "https://istvantothdesign.github.io/astutis/rospa-logo.png";
+}
+
+// Change course cards
+function changeCardsRospa() {
+  console.log("cards");
+  for (let i = 0; i < courseCard1.length; i++) {
+    const courseCard = courseCard1[i];
+    // 2. Modify its custom css properties
+    courseCard.style.background = "#B2005C";
+  }
+  for (let i = 0; i < courseCard2.length; i++) {
+    const courseCard = courseCard2[i];
+    // 2. Modify its custom css properties
+    courseCard.style.background = "#B2005C";
+  }
+  for (let i = 0; i < courseCard3.length; i++) {
+    const courseCard = courseCard3[i];
+    // 2. Modify its custom css properties
+    courseCard.style.background = "#B2005C";
+  }
+}
+
+// Change skin
+function changeSkin() {
+  switch (skinLower) {
+    case "rospa":
+      changeLogoRospa();
+      changeCardsRospa();
+
+      break;
+  }
+}
+
+changeSkin();
+
 // Functions
 // Removing right drawer from learners
 function removedrawer() {
