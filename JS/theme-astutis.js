@@ -1,9 +1,3 @@
-// Dashboard feature
-if (skin === "amazon") {
-  const dashFeature = document.querySelector(".ast-embed-wrp");
-  dashFeature.classList.add("d-none");
-}
-
 // Variables
 const astPageID2 = document.querySelector("body").id;
 const astRole = document.querySelector(".ast-role").innerHTML;
@@ -100,6 +94,6 @@ function astActivityHover() {
 }
 
 // Calling functions (add these to site admin->appearance->additional html-> before body)
-removedrawer();
-customLogin();
-astActivityHover();
+// removedrawer();
+// customLogin();
+// astActivityHover();
