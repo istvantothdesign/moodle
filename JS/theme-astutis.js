@@ -100,6 +100,6 @@ function astActivityHover() {
 }
 
 // Calling functions (add these to site admin->appearance->additional html-> before body)
-//removedrawer();
-//customLogin();
-//astActivityHover();
+removedrawer();
+customLogin();
+astActivityHover();
