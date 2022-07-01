@@ -21,6 +21,24 @@ const courseCard3 = document.querySelectorAll(
 
 console.log(courseCard2);
 
+//Change page loader
+function loaderColor() {
+  const transition = document.querySelector(".transition-3");
+  switch (skinLower) {
+    case "meta":
+      transition.style.setProperty("--astloader", "#3385ff");
+      break;
+    case "rospa":
+      transition.style.setProperty("--astloader", "#ab0161");
+      break;
+    case "twitter":
+      transition.style.setProperty("--astloader", "#3385ff");
+      break;
+    default:
+      transition.style.setProperty("--astloader", "#9243FF");
+  }
+}
+
 // Change logo
 function changeLogoAstutis() {
   navLogo.children[0].src =

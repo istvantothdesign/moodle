@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Skins-->
+    <script src="https://astutis.github.io/moodle/Astutis%20Theme/Alpha/JS/skins.js"></script>
+    <script>
+      //Envoke functions here
+
+      changeCards();
+      loaderColor();
+    </script>
+
+    <!--Page loading animation-->
+    <script src="https://astutis.github.io/moodle/JS/transitionv2.js"></script>
+
+    <!--Course topics click-->
+    <script>
+      const astPageID = document.getElementById("page-course-view-topics");
+
+      if (astPageID.id === "page-course-view-topics") {
+        console.log("yes");
+        const topics = document.querySelectorAll(".section-summary");
+        //const activities = document.querySelectorAll(".activity.activity-wrapper");
+        console.log(topics);
+
+        for (let i = 0; i < topics.length; ++i) {
+          topics[i].addEventListener("click", function () {
+            let link = this.childNodes[1].childNodes[1].childNodes[1].href;
+            console.log(link);
+            window.location.href = `${link}`;
+          });
+
+          // This handler will be executed every time the cursor
+          // is moved over a different list item
+          topics[i].addEventListener(
+            "mouseover",
+            function (event) {
+              // highlight the mouseover target
+              //   event.target.style.background = "orange";
+              event.target.style.cursor = "pointer";
+
+              //   // reset the color after a short delay
+              //   setTimeout(function () {
+              //     event.target.style.background = "green";
+              //   }, 500);
+            },
+            false
+          );
+        }
+
+        for (let i = 0; i < activities.length; ++i) {
+          activities[i].addEventListener("click", function () {
+            let link =
+              this.childNodes[1].childNodes[1].childNodes[1].childNodes[1]
+                .childNodes[1].childNodes[3].childNodes[3].childNodes[1].href;
+            console.log(link);
+            window.location.href = `${link}`;
+          });
+
+          // This handler will be executed every time the cursor
+          // is moved over a different list item
+          activities[i].addEventListener(
+            "mouseover",
+            function (event) {
+              // highlight the mouseover target
+              //   event.target.style.background = "orange";
+              event.target.style.cursor = "pointer";
+
+              //   // reset the color after a short delay
+              //   setTimeout(function () {
+              //     event.target.style.background = "green";
+              //   }, 500);
+            },
+            false
+          );
+        }
+      }
+    </script>
+
+    <script>
+      // Removing right drawer from learners
+      const astPageID2 = document.querySelector("body").id;
+      const astRole = document.querySelector(".ast-role").innerHTML;
+      const drawerRight = document.querySelector(
+        ".drawer-toggler.drawer-right-toggle"
+      );
+
+      function removedrawer() {
+        if (
+          astPageID2 === "page-course-view-topics" ||
+          astPageID2 === "page-my-index"
+        ) {
+          drawerRight.classList.add("d-none");
+        }
+
+        if (astRole.includes("admin") === true) {
+          drawerRight.classList.remove("d-none");
+        }
+      }
+
+      // Custom login
+      function customLogin() {
+        const logoImg = document.getElementById("logoimage");
+
+        if (window.location.href.includes("#rospa")) {
+          logoImg.classList.add("rospa-logo");
+        } else if (window.location.href.includes("#amazon")) {
+          logoImg.classList.add("amazon-logo");
+        }
+      }
+
+      removedrawer();
+      customLogin();
+    </script>
+  </body>
+</html>
