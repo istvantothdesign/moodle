@@ -1,4 +1,4 @@
-//VARIABLES
+//VARIABLES Test
 const navLogo = document.querySelector(".navbar-brand");
 const sectionImgColor = document.querySelectorAll(
   ".featureimage-inner.sl-bg-img-cover.bg-primary"
