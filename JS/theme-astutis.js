@@ -164,10 +164,12 @@ function customLogin() {
 
   if (window.location.href.includes("#rospa")) {
     logoImg.classList.add("rospa-logo");
-    body.style.background = "white";
+    let body2 = document.querySelector("body");
+    body2.style.background = "white";
   } else if (window.location.href.includes("#amazon")) {
     logoImg.classList.add("amazon-logo");
-    body.style.background = "white";
+    let body2 = document.querySelector("body");
+    body2.style.background = "white";
   }
 }
 
