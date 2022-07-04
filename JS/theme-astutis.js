@@ -104,7 +104,9 @@ function brandColors() {
       // Leave this as it is
       body.style.background = bodyBg;
       break;
-    default:
+    case "":
+      bodyBg = `url("https://mylearningdev4.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
+
       // Set brand colours
       brandColor1 = "#A243FF";
       brandColor2 = "#FF6F30";
