@@ -166,7 +166,6 @@ function customLogin() {
     logoImg.classList.add("rospa-logo");
     let pageID = document.getElementById("page");
     pageID.style.background = "white";
-    console.log(astPageIDv2);
   } else if (window.location.href.includes("#amazon")) {
     logoImg.classList.add("amazon-logo");
     let pageID = document.getElementById("page");
