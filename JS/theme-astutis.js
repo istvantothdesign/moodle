@@ -280,9 +280,12 @@ function astActivityHover() {
 
 function removeLogo() {
   const logo = document.querySelector(".navbar-brand .logo");
+  logo.classList.add("d-none");
+}
 
+function removeLogoPages() {
   if (astPageID2 === "page-login-signup") {
-    logo.classList.add("d-none");
+    removeLogo();
   }
 }
 
@@ -291,4 +294,4 @@ function removeLogo() {
 // removedrawer();
 // customLogin();
 // astActivityHover();
-// removeLogo();
+// removeLogoPages();
