@@ -5,6 +5,8 @@ const drawerRight = document.querySelector(
   ".drawer-toggler.drawer-right-toggle"
 );
 
+const astPageIDv2 = document.getElementById("page");
+
 // Variables for skins
 const skin = document.querySelector(".ast-skin").innerHTML;
 const skinLower = skin.toString().toLowerCase();
@@ -161,7 +163,7 @@ function removedrawer() {
 // Custom login
 function customLogin() {
   const logoImg = document.getElementById("logoimage");
-  const astPageIDv2 = document.getElementById("page");
+
   if (window.location.href.includes("#rospa")) {
     logoImg.classList.add("rospa-logo");
     let pageID = document.getElementById("page");
