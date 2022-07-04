@@ -277,12 +277,11 @@ function astActivityHover() {
 }
 
 // Removing logo from nav bar
-function removeLogo() {
-  const logo = document.querySelector(".navbar-brand .logo");
-  logo.classList.add("d-none");
-}
-
 function removeLogoPages() {
+  function removeLogo() {
+    const logo = document.querySelector(".navbar-brand .logo");
+    logo.classList.add("d-none");
+  }
   if (astPageID2 === "page-login-signup") {
     removeLogo();
   }
