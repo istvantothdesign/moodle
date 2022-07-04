@@ -50,7 +50,7 @@ function brandColors() {
 
       // Link to the logo image
       navLogo.children[0].src =
-        "https://istvantothdesign.github.io/astutis/rospa-logo.png";
+        "https://astutis.github.io/moodle/Images/Theme/ClientLogos/rospa-logo-skins.png";
 
       // You can leave these as they are OR...
       // Change loading animation colour here
@@ -84,7 +84,7 @@ function brandColors() {
 
       // Link to the logo image
       navLogo.children[0].src =
-        "https://astutis.github.io/moodle/Astutis%20Theme/Images/Client%20logos/amazon%20logo.png";
+        "https://astutis.github.io/moodle/Images/Theme/ClientLogos/amazon-logo-skins.png";
 
       // You can leave these as they are OR...
       // Change loading animation colour here
@@ -118,7 +118,7 @@ function brandColors() {
 
       // Link to the logo image
       navLogo.children[0].src =
-        "https://istvantothdesign.github.io/astutis/Astutis-logo.png";
+        "https://astutis.github.io/moodle/Images/Theme/ClientLogos/astutis-logo-skins.png";
 
       // You can leave these as they are OR...
       // Change loading animation colour here
