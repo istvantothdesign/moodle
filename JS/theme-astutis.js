@@ -164,11 +164,11 @@ function customLogin() {
 
   if (window.location.href.includes("#rospa")) {
     logoImg.classList.add("rospa-logo");
-    let pageID = document.querySelector("page");
+    let pageID = document.getElementById("page");
     pageID.style.background = "white";
   } else if (window.location.href.includes("#amazon")) {
     logoImg.classList.add("amazon-logo");
-    let pageID = document.querySelector("page");
+    let pageID = document.getElementById("page");
     pageID.style.background = "white";
   }
 }
