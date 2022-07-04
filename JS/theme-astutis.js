@@ -5,8 +5,6 @@ const drawerRight = document.querySelector(
   ".drawer-toggler.drawer-right-toggle"
 );
 
-const astPageIDv2 = document.getElementById("page");
-
 // Variables for skins
 const skin = document.querySelector(".ast-skin").innerHTML;
 const skinLower = skin.toString().toLowerCase();
