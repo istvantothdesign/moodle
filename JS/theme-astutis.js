@@ -138,6 +138,40 @@ function brandColors() {
       // Leave this as it is
       body.style.background = bodyBg;
       break;
+    default:
+      bodyBg = `url("https://mylearningdev4.astutis.com/theme/image.php/astutis/theme/1656920572/site/theme-astutis-bg")`;
+
+      // Set brand colours
+      brandColor1 = "#A243FF";
+      brandColor2 = "#FF6F30";
+      brandColor3 = "#3127A4";
+      gradientColor1 = "#ff6f30";
+      gradientColor2 = "#3e3eff";
+      gradientColor3 = "#a243ff";
+      gradientColor4 = "#3127a4";
+
+      // Link to the logo image
+      navLogo.children[0].src =
+        "https://istvantothdesign.github.io/astutis/Astutis-logo.png";
+
+      // You can leave these as they are OR...
+      // Change loading animation colour here
+      transition.style.setProperty("--astloader", brandColor1);
+
+      // Change topic colours here
+      for (let i = 0; i < topic1.length; i++) {
+        const topic = topic1[i];
+
+        topic.style.borderLeftColor = brandColor3;
+      }
+      for (let i = 0; i < topic2.length; i++) {
+        const topic = topic2[i];
+
+        topic.style.borderLeftColor = brandColor1;
+      }
+      // Leave this as it is
+      body.style.background = bodyBg;
+      break;
   }
 
   astRoot.style.setProperty("--ast-brand-1", brandColor1);
