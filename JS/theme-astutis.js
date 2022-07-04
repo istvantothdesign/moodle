@@ -161,11 +161,12 @@ function removedrawer() {
 // Custom login
 function customLogin() {
   const logoImg = document.getElementById("logoimage");
-
+  const astPageIDv2 = document.getElementById("page");
   if (window.location.href.includes("#rospa")) {
     logoImg.classList.add("rospa-logo");
     let pageID = document.getElementById("page");
     pageID.style.background = "white";
+    console.log(astPageIDv2);
   } else if (window.location.href.includes("#amazon")) {
     logoImg.classList.add("amazon-logo");
     let pageID = document.getElementById("page");
