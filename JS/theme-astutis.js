@@ -276,8 +276,21 @@ function astActivityHover() {
   }
 }
 
+// Removing logo from nav bar
+function removeLogo() {
+  const logo = document.querySelector(".navbar-brand .logo");
+  logo.classList.add("d-none");
+}
+
+function removeLogoPages() {
+  if (astPageID2 === "page-login-signup") {
+    removeLogo();
+  }
+}
+
 // Calling functions (add these to site admin->appearance->additional html-> before body)
 // brandColors();
 // removedrawer();
 // customLogin();
 // astActivityHover();
+// removeLogoPages();
