@@ -290,4 +290,4 @@ function removeLogo() {
 // removedrawer();
 // customLogin();
 // astActivityHover();
-// removeLogoPages();
+// removeLogo();
