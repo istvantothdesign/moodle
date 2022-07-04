@@ -21,7 +21,6 @@ const topic2 = document.querySelectorAll(
 );
 const body = document.querySelector("body");
 const welcomeText = document.querySelector(".ast-welcome-gradient");
-const logo = document.querySelector(".navbar-brand .logo");
 
 let bodyBg;
 let navLogo = document.querySelector(".navbar-brand");
@@ -280,6 +279,8 @@ function astActivityHover() {
 // Removing logo from nav bar
 
 function removeLogo() {
+  const logo = document.querySelector(".navbar-brand .logo");
+
   if (astPageID2 === "page-login-signup") {
     logo.classList.add("d-none");
   }
