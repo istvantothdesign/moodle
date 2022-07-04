@@ -8,6 +8,9 @@ const drawerRight = document.querySelector(
 // Variables for skins
 const skin = document.querySelector(".ast-skin").innerHTML;
 const skinLower = skin.toString().toLowerCase();
+const skinWrp =
+  document.querySelector(".ast-skin").parentNode.parentNode.parentNode
+    .parentNode;
 const astRoot = document.querySelector(":root");
 const transition = document.querySelector(".transition-3");
 const topic1 = document.querySelectorAll(
@@ -142,6 +145,8 @@ function brandColors() {
   astRoot.style.setProperty("--ast-brand-gradient-2", gradientColor2);
   astRoot.style.setProperty("--ast-brand-gradient-3", gradientColor3);
   astRoot.style.setProperty("--ast-brand-gradient-4", gradientColor4);
+
+  skinWrp.classList.add("d-none");
 }
 
 // Removing right drawer from learners
