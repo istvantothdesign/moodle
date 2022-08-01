@@ -1,0 +1,38 @@
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p style="text-align: right;">
+</p>
+<p>Hello {{FirstName}}
+</p>
+<p>Welcome to your Astutis <strong>NEBOSH General Certificate in Occupational Health and Safety </strong>online learning course.
+</p>
+<p><strong><u>Access to your course</u></strong>
+</p>
+<p>You will have received an email with your login details to the <a href="https://mycourse.astutis.com/#/login">Astutis Learning Management System (LMS)</a>. The LMS is an online platform and once you login you’ll have full access to your course and the course materials.
+</p>
+<p>If you have not received your login details, please contact us at <a href="mailto:learningadvisor@astutis.com">learningadvisor@astutis.com</a>
+</p>
+<p><strong>Starting your course</strong>
+</p>
+<p>Before you start the course, here’s a few helpful tips:
+</p>
+<ul>
+	<li>Start the course by working your way through the <strong><i>Overview</i></strong> section. This details how the course works, how you can find your way around, and where to go for help. It also includes important details about the assessments. </li>
+	<li>We also recommend using the course tools such as <strong>Astutis TrackSmart</strong> to help you structure your study, and <strong>Astutis TrackSmart</strong> to help with your learning schedule.</li>
+</ul>
+<p><strong>Booking your exams</strong>
+</p>
+<p>If you haven’t already paid for and booked your NEBOSH exams, then we recommend that you do so as soon as you are ready. You have a full 12-months access to your course from the date of purchase. You must complete the course, register, and sit the exam within the 12-months
+</p>
+<p>You must register to sit the exams by completing the booking form eight- weeks before the exam date. Booking your exams couldn’t be easier. Complete the exam booking form located in the <a href="https://www.astutis.com/help-centre/exam-hub"><strong>Exam Help Centre</strong></a> section on the Astutis website.
+</p>
+<p>If you have any questions, please don't hesitate to contact us.
+</p>
+<p>Natalie Robinson<br>Senior Online Learning Advisor<br>{{CompanyPhone}}<br>{{CompanyEmail}}
+</p>
