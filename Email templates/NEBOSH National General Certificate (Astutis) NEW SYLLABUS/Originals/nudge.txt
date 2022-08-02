@@ -1,0 +1,50 @@
+<p>
+</p>
+<p>
+</p>
+<p style="text-align: right;">
+</p>
+<p>Hello {{first name}},
+</p>
+<p>We hope that you are enjoying your course and your online learning experience.
+</p>
+<p>We noticed that your course expires on {{ExpiryDate}}. If you need more time, then we are here to help. When you purchased the course, you had 12-months to complete the course content, register, and sit your NEBOSH exam.
+</p>
+<p>To help you pass the course, you may purchase a course extension that gives you an additional 12-months full access to the course content, access to all the online materials and access to Astutis ExamSmart™ and Astutis TrackSmart™
+</p>
+<p>The cost of the course extension and the NEBOSH exam registration is £375+VAT.&nbsp;
+</p>
+<p><strong>Do you need a bit more time to decide?</strong>
+</p>
+<p>We are committed to helping you pass, so after your course expires, you have an extra 60-days to get in touch so we can enrol you with this offer.
+</p>
+<p><strong>Ready to sit your exams?</strong>
+</p>
+<p>If you are ready to sit your exams, then booking or paying for an exam if you haven’t already done so, couldn’t be easier.
+</p>
+<p>You will need to complete a simple exam booking form that is located on the Astutis Website. Click&nbsp;<a href="https://www.astutis.com/help-centre/exam-hub/nebosh-general-certificate" target="_blank">here</a>&nbsp;to access the exam booking form.
+</p>
+<p>You must register for the NEBOSH exams by completing the booking form at least eight weeks before the exam date.
+</p>
+<p><strong>Do you require any special arrangements?</strong>
+</p>
+<p>When you book your exams, remember to let us know if you require any specific access arrangements, adjustments, or special considerations. We will complete a NEBOSH application regarding these arrangement on your behalf.
+</p>
+<p>Further information regarding these arrangements can be found on the&nbsp;<a href="https://www.nebosh.org.uk/policies-and-procedures/policy-and-procedures-for-access-arrangements-reasonable/" target="_blank">NEBOSH website.</a>
+</p>
+<p>If you have completed the course but sat your exams with another provider, we would be grateful if you could take a few minutes to feedback on your experience by completing a quick course&nbsp;<a href="http://evaluation.astutis-resources.com/nebosh-ngc" target="_blank">evaluation survey</a>.
+</p>
+<p>If you have any questions, please don't hesitate to get in touch.&nbsp;
+</p>
+<p>Natalie Robinson
+</p>
+<p>Senior Online Learning Advisor
+</p>
+<p>&nbsp;{{CompanyPhone}}
+</p>
+<p>
+</p>
+<p>&nbsp;{{CompanyEmail}}
+</p>
+<p>
+</p>
